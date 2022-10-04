@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar.jsx';
+import './index.css'
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App" class="m-0 p-0 bg-neutral-300	">
+      <Footer />
     </div>
   );
 }
