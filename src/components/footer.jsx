@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faTwitterSquare, faInstagramSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 const Footer = () => {
   return (
-    <div class="	m-0 p-4">
-      <div class="	flex gap-72		flex-row m-12 ">
+    <div class="	m-0 p-4 max-w-screen-xl	items-center">
+      <div class="	flex gap-60	flex-row m-12 ">
         <div class=" flex gap-12	flex-col">
           <div>
             {/* <h1 class="text-3xl bold underline font-mono">Electronics Nest</h1> */}
