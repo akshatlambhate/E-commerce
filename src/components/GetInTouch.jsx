@@ -1,11 +1,11 @@
 import React from 'react'
 
-function footer() {
+const GetInTouch = () => {
   return (
     <div>
-      Footer
+      hello
     </div>
   )
 }
 
-export default footer
+export default GetInTouch

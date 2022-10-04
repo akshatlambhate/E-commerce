@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar.jsx';
+import GetInTouch from './components/GetInTouch';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <GetInTouch />
     </div>
   );
 }
