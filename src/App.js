@@ -1,4 +1,3 @@
-import './App.css';
 import GetInTouch from './components/GetInTouch';
 import './index.css'
 

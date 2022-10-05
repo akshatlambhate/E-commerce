@@ -5,7 +5,7 @@ const GetInTouch = () => {
     <div  class="m-0 p-4 max-w-screen-sl flex flex-row gap-12">
     <div class="	flex flex-col gap-14 items-center	p-16 w-1/2 bg-AntiFlashWhite rounded m-8 ">
       <div class="w-full items-center ">
-        <h1 class="text-5xl bold font-mono text-AirBlue">Get In Touch!</h1>
+        <h1 class="text-5xl bold font-mono text-AirBlue	">Get In Touch!</h1>
         <p class="text-AirBlue">We'll happy to answer your all questions.
         So,Subscribe to ElectonicsNest & get notified on the latest devices that impact your lifestyle.
         </p>
