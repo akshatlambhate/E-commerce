@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div>
             <h1 class="text-2xl font-medium	pb-4">Menu</h1>
-            <ul class="text-xl> font-light> font-serif> pb-2">
+            <ul class="text-xl> font-light> font-serif> pb-2 text-yellow-400">
               <li>About</li>
               <li>Store</li>
               <li>Contact Us</li>
