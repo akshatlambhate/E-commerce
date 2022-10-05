@@ -1,12 +1,12 @@
 import React from 'react'
-import sideImg from './assests/side-img01.png'
+import sideImg from './assests/git-07.png'
 const GetInTouch = () => {
   return (
     <div  class="m-0 p-4 max-w-screen-sl flex flex-row gap-12">
-    <div class="	flex flex-col gap-14 items-center	p-8 w-1/2 bg-teal-100 rounded m-8 ">
-      <div class="w-full items-center p-8">
-        <h1 class="text-5xl bold font-mono text-teal-800">Get In Touch!</h1>
-        <p>We'll happy to answer your all questions.
+    <div class="	flex flex-col gap-14 items-center	p-16 w-1/2 bg-AntiFlashWhite rounded m-8 ">
+      <div class="w-full items-center ">
+        <h1 class="text-5xl bold font-mono text-AirBlue">Get In Touch!</h1>
+        <p class="text-AirBlue">We'll happy to answer your all questions.
         So,Subscribe to ElectonicsNest & get notified on the latest devices that impact your lifestyle.
         </p>
       </div>
@@ -24,13 +24,13 @@ const GetInTouch = () => {
       border-solid 
       border-gray-300
       rounded 
-      focus:text-gray-700 focus:bg-white focus:border-teal-800	focus:outline-none
+      focus:text-gray-700 focus:bg-white focus:border-AirBlue	focus:outline-none
       "/>
-      <button class="bg-teal-800	 hover:bg-teal-400	 text-white font-bold py-2 px-8 rounded-full">Subscribe</button>
+      <button class="bg-AirBlue	 hover:bg-shelduckBlue	 text-white font-bold py-2 px-8 rounded-full">Subscribe</button>
       </div>
     </div>
     <div>
-      <img src={sideImg} alt="" class="w-25 p-8"/>
+      <img src={sideImg} alt="" class="w-25 h-25 p-8"/>
     </div>
     </div>
   )
