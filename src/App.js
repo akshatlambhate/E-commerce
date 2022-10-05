@@ -1,10 +1,10 @@
 import './App.css';
-import './index.css'
 import GetInTouch from './components/GetInTouch';
+import './index.css'
 
 function App() {
   return (
-    <div className="App" class="bg-shelduckBlue">
+    <div className="App"  class="bg-AirBlue">
       <GetInTouch />
     </div>
   );
