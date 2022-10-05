@@ -26,7 +26,7 @@ const GetInTouch = () => {
       rounded 
       focus:text-gray-700 focus:bg-white focus:border-AirBlue	focus:outline-none
       "/>
-      <button class="bg-AirBlue	 hover:bg-shelduckBlue	 text-white font-bold py-2 px-8 rounded-full">Subscribe</button>
+      <button class="bg-AirBlue	 hover:text-AirBlue hover:bg-white	 text-white font-bold py-2 px-8 rounded-full">Subscribe</button>
       </div>
     </div>
     <div>
