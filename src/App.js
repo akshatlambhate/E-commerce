@@ -1,11 +1,11 @@
 import './App.css';
+import Categories from './components/Categories';
 import './index.css'
-import GetInTouch from './components/GetInTouch';
 
 function App() {
   return (
     <div className="App" class="bg-shelduckBlue">
-      <GetInTouch />
+      <Categories />
     </div>
   );
 }
