@@ -4,7 +4,7 @@ import './index.css'
 
 function App() {
   return (
-    <div className="App" class="bg-shelduckBlue">
+    <div className="App" class="border-b-2	border-Charcoal">
       <Categories />
     </div>
   );
