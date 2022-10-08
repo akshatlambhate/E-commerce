@@ -5,26 +5,26 @@ export const SaleData = [
     },
     {
         device:'Mobiles',
-        id:'01',
+        id:'02',
     },
     {
         device:'Home Appilances',
-        id:'01',
+        id:'03',
     },
     {
         device:'Headphones',
-        id:'01',
+        id:'04',
     },
     {
         device:'Smart-watches',
-        id:'01',
+        id:'05',
     },
     {
         device:'iPads',
-        id:'01',
+        id:'06',
     },
     {
         device:'Accessories',
-        id:'06',
+        id:'07',
     },
 ]

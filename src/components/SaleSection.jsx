@@ -1,7 +1,6 @@
 import React from 'react'
-import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowAltCircleLeft , faArrowAltCircleRight ,faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import {faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -19,7 +18,7 @@ const SaleSection = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 1500,
+          delay: 3500,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -31,11 +30,11 @@ const SaleSection = () => {
       >
         {SaleData.map((dev,i)=>(
           <SwiperSlide className='p-8'>
-          <div className='h-[80vh] p-8 gap-2 flex flex-col justify-end items-baseline m-4 bg-AntiFlashWhite'>
+          <div className='h-[80vh] p-8 gap-2 flex flex-col justify-end items-baseline m-4 bg-AntiFlashWhite sm:phone:h-[40vh] '>
           <div className='border-2 border-AirBlue	w-[100%] mb-2'></div>
           <h5 className='w-[max-content] '>FEATURED COLLECTION / {i+1} </h5>
-          <h1 className='w-[max-content] ' key={i} > {dev.device} </h1>
-          <button className='bg-AirBlue	 hover:text-AirBlue hover:bg-white	 text-white font-bold py-2 px-8 rounded w-[30%] '>Shop Collection <FontAwesomeIcon icon={faArrowRight} /></button>
+          <h1 className='w-[max-content] '> {dev.device} </h1>
+          <button className='bg-AirBlue	 hover:text-AirBlue hover:bg-white	 text-white font-bold py-2 px-8 rounded w-[30%] sm:phone:w-[60%]'>Shop Collection <FontAwesomeIcon icon={faArrowRight} /></button>
           </div>
           </SwiperSlide>
         ))}

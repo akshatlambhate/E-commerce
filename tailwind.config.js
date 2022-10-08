@@ -14,7 +14,7 @@ module.exports = {
         'black' : '#000000',
       },
       screens: {
-        'phone': '420',
+        'phone': '420px',
         'tablet': '640px',  
         'laptop': '1024px',
         'desktop': '1280px',
