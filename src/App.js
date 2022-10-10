@@ -1,11 +1,14 @@
-import './App.css';
-import './index.css'
-import Footer from './components/Footer.jsx';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar.jsx";
+import ItemCards from "./components/ItemCards.jsx";
+import Hero from "./components/Hero";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <div className="App" class="m-0 p-0 bg-neutral-300	">
-      <Footer />
+    <div className="App">
+      <Main />
     </div>
   );
 }
