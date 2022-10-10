@@ -13,17 +13,16 @@ const Hero = () => {
       <Navbar />
       <div
         id="hero-text "
-        className="flex flex-col align-middle justify-center h-36"
+        className="flex flex-col h-36"
       ></div>
       <div id="starting text">
-        <h1 className="text-white text-lg align-middle ml-40 mb-12">
-          {" "}
+        <h1 className="text-white text-lg  ml-12 mb-12">
           surrounded by technology
         </h1>
       </div>
       <div id="main text">
-        <h1 className="text-white text-6xl align-middle ml-40 max-w-xl">
-          Get Awsome Deals on All Electronic Products.
+        <h1 className="text-white text-6xl ml-40 ">
+          Get Awsome Deals on All <br></br>Electronic Products.
         </h1>
       </div>
       <div id="hero-button">

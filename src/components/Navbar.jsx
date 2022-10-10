@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="px-2 py-2 my-0 bg-white text-black rounded ">
         <input type="text" placeholder="Search Products..." className="focus:outline-none "></input>
       </div>
-      <div className="px-3 mx-1 rounded bg-button hover:bg-buttonhover  ">
+      <div className="px-3 mx-1 rounded bg-button hover:bg-buttonhover ">
         <button className="text-center align-middle"> <FontAwesomeIcon icon={ faGreaterThan}/> </button>
       </div>
       <div className="px-2 text-2xl  mx-4 cursor-pointer hover:text-buttonhover "><FontAwesomeIcon icon={faCartShopping}/></div>
