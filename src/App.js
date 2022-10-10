@@ -7,11 +7,14 @@ import Main from "./components/Main";
 import './App.css';
 import Categories from './components/Categories';
 import './index.css'
+import SaleSection from './components/SaleSection';
+
 function App() {
   return (
     <div className="App">
       <Main />
       <Categories />
+      <SaleSection />
     </div>  
   );
 }

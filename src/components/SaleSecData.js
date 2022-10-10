@@ -1,0 +1,30 @@
+export const SaleData = [
+    {
+        device:'Laptop',
+        id:'01',
+    },
+    {
+        device:'Mobiles',
+        id:'02',
+    },
+    {
+        device:'Home Appilances',
+        id:'03',
+    },
+    {
+        device:'Headphones',
+        id:'04',
+    },
+    {
+        device:'Smart-watches',
+        id:'05',
+    },
+    {
+        device:'iPads',
+        id:'06',
+    },
+    {
+        device:'Accessories',
+        id:'07',
+    },
+]
