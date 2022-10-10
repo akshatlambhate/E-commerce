@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import phone from '../assets/phone.jpg'
+import phone from '../components/assests/phone.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 const ItemCards = () => {

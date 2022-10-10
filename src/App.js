@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import ItemCards from "./components/ItemCards.jsx";
@@ -14,10 +13,11 @@ import Footer from './components/footer.jsx';
 function App() {
   return (
     <div className="App" class="bg-AirBlue">
-      <Main />
+      <Hero />
       <Categories />
-      <SaleSection />
+      <Main />
       <GetInTouch />
+      <SaleSection />
       <Footer />
     </div>  
   );

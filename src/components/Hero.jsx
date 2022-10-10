@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-import background from "../assets/hero.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import background from "../components/assests/hero.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faArrowTurnDownRight } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {

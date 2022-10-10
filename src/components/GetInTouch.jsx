@@ -1,8 +1,8 @@
 import React from 'react'
-import sideImg from './assests/git-07.png'
+import sideImg from '../components/assests/getInTouch.png'
 const GetInTouch = () => {
   return (
-    <div  class="m-0 p-4 max-w-screen-sl flex flex-row gap-12">
+    <div  class="m-0 p-4 max-w-screen-sl flex flex-row gap-12 bg-slate-500">
     <div class="	flex flex-col gap-14 items-center	p-16 w-1/2 bg-AntiFlashWhite rounded m-8 ">
       <div class="w-full items-center ">
         <h1 class="text-5xl bold font-mono text-AirBlue	">Get In Touch!</h1>
