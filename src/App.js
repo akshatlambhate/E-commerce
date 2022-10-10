@@ -8,13 +8,15 @@ import './App.css';
 import Categories from './components/Categories';
 import './index.css'
 import SaleSection from './components/SaleSection';
+import GetInTouch from './components/GetInTouch';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" class="bg-AirBlue">
       <Main />
       <Categories />
       <SaleSection />
+      <GetInTouch />
     </div>  
   );
 }
