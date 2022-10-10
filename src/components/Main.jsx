@@ -19,10 +19,8 @@ const Main = () => {
             <ItemCards />
             <ItemCards />
             <ItemCards />
-            <ItemCards />
          </div>
          <div className='flex gap-5 justify-around justify-center mx-10 mt-10'>
-            <ItemCards />
             <ItemCards />
             <ItemCards />
             <ItemCards />
