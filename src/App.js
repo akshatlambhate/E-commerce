@@ -9,6 +9,7 @@ import Categories from './components/Categories';
 import './index.css'
 import SaleSection from './components/SaleSection';
 import GetInTouch from './components/GetInTouch';
+import Footer from './components/footer.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Categories />
       <SaleSection />
       <GetInTouch />
+      <Footer />
     </div>  
   );
 }
