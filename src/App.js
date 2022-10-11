@@ -4,7 +4,7 @@ import Footer from './components/footer.jsx';
 
 function App() {
   return (
-    <div className="App" class="m-0 p-0 bg-neutral-300	">
+    <div className="App">
       <Footer />
     </div>
   );
