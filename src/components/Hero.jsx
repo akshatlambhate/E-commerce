@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
-import background from "../components/assests/hero.jpg";
+import Navbar from "../SharedComponents/Navbar";
+import background from "../assests/hero.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faArrowTurnDownRight } from "@fortawesome/free-solid-svg-icons";
 

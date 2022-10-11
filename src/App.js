@@ -1,24 +1,18 @@
 import "./App.css";
-import Navbar from "./components/Navbar.jsx";
-import ItemCards from "./components/ItemCards.jsx";
-import Hero from "./components/Hero";
-import Main from "./components/Main";
-import './App.css';
-import Categories from './components/Categories';
 import './index.css'
-import SaleSection from './components/SaleSection';
-import GetInTouch from './components/GetInTouch';
-import Footer from './components/footer.jsx';
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App" class="bg-AirBlue">
+      <Home />
+      {/* <LayoutHome>
       <Hero />
       <Categories />
       <Main />
       <GetInTouch />
       <SaleSection />
-      <Footer />
+      </LayoutHome> */}
     </div>  
   );
 }

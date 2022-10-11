@@ -1,10 +1,10 @@
 import React from 'react'
-import laptop01 from './assests/laptop-03.png'
-import ha from './assests/HA01.png'
-import headphns from './assests/headPhns01.png'
-import ipad from './assests/ipad.png'
-import mobile from './assests/mobile.png'
-import smartW from './assests/smartW.png'
+import laptop01 from '../assests/laptop01.png'
+import ha from '../assests/HA01.png'
+import headphns from '../assests/headPhns01.png'
+import ipad from '../assests/ipad.png'
+import mobile from '../assests/mobile.png'
+import smartW from '../assests/smartW.png'
 
 const Categories = () => {
   return (
