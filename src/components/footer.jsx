@@ -1,5 +1,5 @@
 import React from 'react'
-import logoblack from '../assests/png/logo-img01.png'
+import logoblack from '../assets/png/logo-img01.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faTwitterSquare, faInstagramSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 import SubFooter from './SubFooter'
