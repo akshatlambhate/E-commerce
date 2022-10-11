@@ -1,7 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope  } from '@fortawesome/free-solid-svg-icons'
-import { faTwitterSquare,faFacebookSquare , faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
+import Form from './Form'
+import SocialMediaIcons from './SocialMediaIcons'
 const ContactUs = () => {
     return (
         <div className='m-4 '>
@@ -22,21 +23,11 @@ const ContactUs = () => {
                         Madhya Pradesh
                     </p>
                     <div className='text-3xl flex gap-3'>
-                        <FontAwesomeIcon icon={faTwitterSquare} className='text-sky-400 hover:text-sky-600'/>
-                        <FontAwesomeIcon icon={faFacebookSquare} className='text-blue-600 hover:text-blue-800	'/>
-                        <FontAwesomeIcon icon={faInstagramSquare} className='text-rose-400	hover:text-rose-500' />
+                        <SocialMediaIcons />
                     </div>
                 </div>
                 <div className='w-1/2'>
-                    <form action="" className='flex flex-col text-left'>
-                        <label htmlFor="" className='text-sm text-AirBlue font-semibold	'>Name</label>
-                        <input type="text" className='w-[70%] border-2 border-AntiFlashWhite focus:outline-none focus:border-AirBlue text-sm p-1 my-2'/>
-                        <label htmlFor="" className='text-sm text-AirBlue font-semibold'>E-mail</label>
-                        <input type="email" className='w-[70%] border-2 border-AntiFlashWhite focus:outline-none focus:border-AirBlue text-sm p-1 my-2' />
-                        <label htmlFor="" className='text-sm text-AirBlue font-semibold'>Enquiry</label>
-                        <textarea name="enquiryText" id="" cols="30" rows="10" className='w-[70%] h-[100px] border-2 border-AntiFlashWhite focus:outline-none focus:border-AirBlue text-sm p-1 my-2'></textarea>
-                        <button className=' my-2 bg-AirBlue text-base text-AntiFlashWhite border-none rounded p-2 w-[20%] font-bold hover:text-AirBlue hover:bg-AntiFlashWhite'>Submit!</button>
-                    </form>
+                    <Form />
                 </div>
 
             </div>
