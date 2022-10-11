@@ -5,6 +5,7 @@ import Footer from '../SharedComponents/footer'
 const Layout01 = ({children}) => {
   return (
     <div>
+      <Navbar />
      {children}
     <Footer />
     </div>
