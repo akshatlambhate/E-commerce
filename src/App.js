@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar.jsx';
+import Checkout from './components/Checkout';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Checkout />
     </div>
   );
 }
