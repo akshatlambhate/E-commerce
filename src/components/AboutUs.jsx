@@ -1,8 +1,8 @@
 import React from 'react'
-import HP from '../assests/headphns.jpg'
-import phn from '../assests/phones.jpg'
-import smartW from '../assests/smartW.jpg'
-import tablets from '../assests/tablets.jpg'
+import HP from '../assets/headphns.jpg'
+import phn from '../assets/phones.jpg'
+import smartW from '../assets/smartW.jpg'
+import tablets from '../assets/tablets.jpg'
 
 const AboutUs = () => {
   return (

@@ -19,8 +19,8 @@ module.exports = {
          'buttonhover': '#98dad9'
       },
       backgroundImage: {
-        'sc01': "url('/src/assests/sc01.jpg')",
-        'sc02': "url('/src/assests/sc02.jpg')",
+        'sc01': "url('/src/assets/sc01.jpg')",
+        'sc02': "url('/src/assets/sc02.jpg')",
       }
     },
     
