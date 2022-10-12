@@ -6,5 +6,6 @@ import Main from './Main'
 import GetInTouch from './GetInTouch'
 import SaleSection from './SaleSection'
 import Footer from '../components/SharedComponents/footer'
-
-export {Navbar,Hero,Categories,Main,GetInTouch,SaleSection,Footer}
+import LoginForm from './LoginForm'
+import Signup from './Signup'
+export {Navbar,Hero,Categories,Main,GetInTouch,SaleSection,Footer,LoginForm,Signup}

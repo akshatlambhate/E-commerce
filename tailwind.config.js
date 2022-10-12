@@ -18,6 +18,9 @@ module.exports = {
          'button': '#5b8291',
          'buttonhover': '#98dad9'
       },
+      width:{
+       'signup':'30rem'
+      },
       backgroundImage: {
         'sc01': "url('/src/assets/sc01.jpg')",
         'sc02': "url('/src/assets/sc02.jpg')",
