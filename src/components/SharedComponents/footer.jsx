@@ -1,7 +1,7 @@
 import React from 'react'
 import logoblack from '../../assets/png/logo-img01.png'
-import SubFooter from './SubFooter'
-import SocialMediaIcons from './SocialMediaIcons'
+import SubFooter from '../SubFooter.jsx'
+import SocialMediaIcons from '../SocialMediaIcons.jsx'
 const Footer = () => {
   return (
     <div class="	m-0 p-4	items-center w-[100%] bg-AntiFlashWhite">

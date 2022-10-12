@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import loginimg from "../assests/LoginForm.jpg";
+import loginimg from "../assets/LoginForm.jpg";
 
 const LoginForm = () => {
   let [username, setUsername] = useState("");
