@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-var defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -9,7 +9,7 @@ module.exports = {
       'xs': '360px',
       ...defaultTheme.screens,
     },
-    extend: {
+    extend:{
       colors: {
         'lightSkyBlue' : '#CAF0F8',
         'midSkyBlue' : '#90E0EF',
@@ -30,6 +30,7 @@ module.exports = {
         'sc02': "url('/src/assets/sc02.jpg')",
       }
     },
+    
   },
   plugins: [],
 }
