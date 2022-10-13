@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme');
+var defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -9,7 +9,7 @@ module.exports = {
       'xs': '360px',
       ...defaultTheme.screens,
     },
-    extend:{
+    extend: {
       colors: {
         'lightSkyBlue' : '#CAF0F8',
         'midSkyBlue' : '#90E0EF',
