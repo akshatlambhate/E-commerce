@@ -36,7 +36,7 @@ const Navbar01 = () => {
     <div className="px-3 mx-1 rounded bg-button hover:bg-buttonhover ">
       <button className="text-center align-middle"> <FontAwesomeIcon icon={ faGreaterThan}/> </button>
     </div>
-    <div className="px-2 text-2xl  mx-4 cursor-pointer hover:text-buttonhover "><FontAwesomeIcon icon={faCartShopping}/></div>
+    <div className="px-2 text-2xl  mx-4 cursor-pointer hover:text-buttonhover "><Link to={"/cartpage"}><FontAwesomeIcon icon={faCartShopping}/></Link></div>
     <div className="px-2 text-2xl  mx-4 cursor-pointer hover:text-buttonhover "><FontAwesomeIcon icon={faUserTie}/></div>
     </div>
      

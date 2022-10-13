@@ -1,14 +1,14 @@
 import React from 'react'
 import Layout01 from '../Layout/Layout01'
-import Cart from '../components/Cart'
-const CartPage = () => {
+import Checkout from '../components/Checkout'
+const CheckoutPage = () => {
   return (
     <div>
       <Layout01>
-        <Cart />
+        <Checkout />
       </Layout01>
     </div>
   )
 }
 
-export default CartPage
+export default CheckoutPage
