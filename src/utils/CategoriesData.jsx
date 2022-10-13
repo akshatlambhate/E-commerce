@@ -11,7 +11,7 @@ export const dataCat = [
     },
     {
         'img':ha,
-        'tag':'Home Appliances',
+        'tag':'HAppliances',
     },
     {
         'img':headphns,
