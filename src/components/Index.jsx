@@ -8,4 +8,5 @@ import SaleSection from './SaleSection'
 import Footer from '../SharedComponents/footer'
 import LoginForm from './LoginForm'
 import Signup from './Signup'
-export {Navbar,Hero,Categories,Main,GetInTouch,SaleSection,Footer,LoginForm,Signup}
+import AboutPage from '../pages/AboutPage'
+export {Navbar,Hero,Categories,Main,GetInTouch,SaleSection,Footer,LoginForm,Signup,AboutPage}
