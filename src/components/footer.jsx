@@ -4,7 +4,7 @@ import SubFooter from './SubFooter'
 import SocialMediaIcons from './SocialMediaIcons'
 const Footer = () => {
   return (
-    <div class="	m-0 p-4	items-center w-[100%] bg-AntiFlashWhite">
+    <div class="	m-0 p-4	items-center w-[100%] bg-lightSkyBlue">
       <div class="	lg:flex lg:gap-30	lg:flex-row m-8  
       xs:grid xs:grid-cols-2 xs:gap-4 xs:m-8
       sm:gap-6 
@@ -22,7 +22,7 @@ const Footer = () => {
         <SubFooter />
       </div>
       <div class="flex flex-row justify-center m-12">
-      <h3 class="text-gray-600 lg:text-base xs:text-xs">Copyright © 2022 Electronics Store</h3>
+      <h3 class="text-blueShade lg:text-base xs:text-xs">Copyright © 2022 Electronics Store</h3>
       </div>
     </div>
   )
