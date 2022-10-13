@@ -12,7 +12,7 @@ const Navbar01 = () => {
     <div className="flex py-6 justify-between opacity-100 text-black border-b-gray-600 border-b-2 " id="nav">
     <div className="flex" id="navleft">
     <div className="w-24" id="logo">
-      <img src={logo} alt="logo"  className=""/>
+    <Link to={"/"}><img src={logo} alt="logo"  className=""/></Link>
       <p className=""></p>
     </div>
     <div className="my-4 mr-8" id="left-menu">

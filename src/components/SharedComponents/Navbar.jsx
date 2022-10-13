@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="flex py-6 justify-between opacity-100 text-white border-b-gray-600 border-b-2 " id="nav">
       <div className="flex" id="navleft">
       <div className="w-24" id="logo">
-        <img src={logo} alt="logo"  className=""/>
+        <Link to={"/"}><img src={logo} alt="logo"  className=""/></Link>
         <p className=""></p>
       </div>
       <div className="my-4 mr-8" id="left-menu">
@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="px-3 mx-1 rounded bg-button hover:bg-buttonhover ">
         <button className="text-center align-middle"> <FontAwesomeIcon icon={ faGreaterThan}/> </button>
       </div>
-      <div className="px-2 text-2xl  mx-4 cursor-pointer hover:text-buttonhover "><FontAwesomeIcon icon={faCartShopping}/></div>
+      <div className="px-2 text-2xl  mx-4 cursor-pointer hover:text-buttonhover "><Link><FontAwesomeIcon icon={faCartShopping}/></Link></div>
       <div className="px-2 text-2xl  mx-4 cursor-pointer hover:text-buttonhover "><FontAwesomeIcon icon={faUserTie}/></div>
       </div>
        
