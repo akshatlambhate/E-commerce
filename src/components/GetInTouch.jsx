@@ -13,10 +13,12 @@ const GetInTouch = () => {
         <h1 class="lg:text-5xl lg:bold font-mono text-darkBlue
         lg:md-4
         md:mb-2
+        xs:mb-2
         xs:text-base	xs:bold">Get In Touch!</h1>
         <p class="text-darkBlue
         lg:text-base lg:md-4
-        md:mb-2        
+        md:mb-2    
+        xs:mb-2
         xs:text-xs">We'll happy to answer your all questions.
         So,Subscribe to ElectonicsNest & get notified on the latest devices that impact your lifestyle.
         </p>
@@ -43,7 +45,7 @@ const GetInTouch = () => {
       </div>
     </div>
     <div className='md:items-center md:p-6 lg:p-4'>
-      <img src={sideImg} alt="" class="lg:w-[90%] lg:h-[90%] md:w-25 md:h-25  p-8 
+      <img src={sideImg} alt="" class="lg:w-[95%] lg:h-[95%] md:w-[95%] md:h-[95%]  p-8 
       sm:p-4"/>
     </div>
     </div>
