@@ -1,6 +1,6 @@
 import React, { Children } from 'react'
-import Navbar from '../SharedComponents/Navbar'
-import Footer from '../SharedComponents/footer'
+import Navbar from '../components/SharedComponents/Navbar'
+import Footer from '../components/SharedComponents/footer'
 
 const Layout01 = ({children}) => {
   return (
