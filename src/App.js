@@ -3,7 +3,7 @@ import './index.css'
 
 function App() {
   return (
-    <div className="App"  class="bg-AirBlue">
+    <div className="App">
       <GetInTouch />
     </div>
   );
