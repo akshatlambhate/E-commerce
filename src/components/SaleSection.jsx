@@ -2,14 +2,14 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import sc02 from '../assets/sc02.jpg'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
-import { SaleData } from './SaleSecData'
+import { SaleData } from '../utils/SaleSecData'
 const SaleSection = () => {
   
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import signimg from '../assests/Signupimg.jpg'
+import signimg from '../assets/Signupimg.jpg'
 
 
 const Signup = () => {

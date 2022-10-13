@@ -1,10 +1,11 @@
 import React from "react";
-import logo from "../assests/logo.png";
+import logo from "../../assets/logo.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGreaterThan} from '@fortawesome/free-solid-svg-icons';
 import {  faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import { faUserTie} from '@fortawesome/free-solid-svg-icons';
+import { Outlet, Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -17,17 +18,17 @@ const Navbar = () => {
       </div>
       <div className="my-4 mr-8" id="left-menu">
         <ul className="flex list-none mx-2 ">
-          <li className="px-2 mx-4 my-2">Store</li>
-          <li className="px-2 mx-4 my-2">Categories</li>
-          <li className="px-2 mx-4 my-2">Sale</li>
+          <li className="px-2 mx-4 my-2"><Link to ="/store">Store</Link></li>
+          <li className="px-2 mx-4 my-2"><Link to ="/store">Categories</Link></li>
+          <li className="px-2 mx-4 my-2"><Link to ="/store">Sale</Link></li>
         </ul>
       </div>
       </div>
       <div id="navright" className="flex mx-9 my-4 mr-24">
       <div className="" id="right-menu">
         <ul className ="flex list-none mx-2">
-          <li className="px-2 mx-4 my-2">About</li>
-          <li className="px-2 mx-4 my-2">Contact</li>
+          <li className="px-2 mx-4 my-2"><Link to ="/aboutus" >About</Link></li>
+          <li className="px-2 mx-4 my-2"><Link to ="/contactus">Contact</Link></li>
         </ul>
       </div>
       <div className="px-2 py-2 my-0 bg-white text-black rounded ">
