@@ -3,16 +3,30 @@ import signimg from '../assests/Signupimg.jpg'
 
 
 const Signup = () => {
+  const initialState={
+     fullname: '',
+     email: '',
+     contact: '',
+     address: '',
+     password: ''
+  }
+  const [value,setValue]=useState(initialState);
 
-  let [fullname, setFullname] = useState("");
-  let [email, setEmail] = useState("");
-  let [contact, setContact] = useState("");
-  let [address, setAddress] = useState("");
-  let [password, setPassword] = useState("");
+  // let [fullname, setFullname] = useState("");
+  // let [email, setEmail] = useState("");
+  // let [contact, setContact] = useState("");
+  // let [address, setAddress] = useState("");
+  // let [password, setPassword] = useState("");
 
   const LoginSubmit = (e) => {
     e.preventDefault();
     console.log(fullname,email,contact,address,password);
+   
+  };
+  const handleSubmit = (e) => {
+
+    // e.preventDefault();
+    // console.log(fullname,email,contact,address,password);
    
   };
   return (
@@ -22,15 +36,13 @@ const Signup = () => {
             <h1 className="font-bold text-3xl font-serif">Sign Up for Electric Nest</h1>
         </div>
       <form className="flex flex-col ">
-        <label className="text-lg font-mono text-slate-800 font-semibold "> FullName </label>
+        <label className="text-lg font-mono text-slate-800 font-semibold "> {}</label>
         <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
           type="text"
           value={fullname}
           autoComplete="null"
           placeholder="Enter Full Name"
-          onChange={(e) => {
-              setFullname(e.target.value);   
-            }}
+          onChange={handleSubmit}
             
         ></input>
          <label className="text-lg font-mono text-slate-800 font-semibold "> Email </label>
