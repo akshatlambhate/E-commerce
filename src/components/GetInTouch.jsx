@@ -29,13 +29,14 @@ const GetInTouch = () => {
       <input type="text" 
       placeholder='Enter your mail' 
       class="w-2/3
-      px-3
-      py-1.5
-      text-base
-      font-normal
+      lg:px-3
+      lg:py-1.5
+      lg:text-base
+      lg:font-normal
       xs:px-1.5
       xs:py-1
       xs:text-sm
+      xs:font-normal
       text-darkBlue
       bg-lightSkyBlue bg-clip-padding
       border 
