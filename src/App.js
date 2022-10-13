@@ -5,26 +5,15 @@ import ContactUsPage from "./pages/ContactUsPage";
 import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignupPage from "./pages/SignupPage";
-import Store from "./components/Store";
 import StorePage from "./pages/StorePage";
 import AboutPage from "./pages/AboutPage";
-import StorePage from './pages/StorePage';
-import Login from './pages/Login';
+import Login from "./pages/Login";
+import ItemCards from "./components/ItemCards";
+
+  
 function App() {
   return (
-    <div className="App" class="bg-AirBlue">
-            {/* <StorePage /> */}
-            <AboutPage />
-            
-      {/* note: - ek baar loginpage or sign in page
-                   use krke dekh lena kaise lg rahe hai  */}
- 
-    </div>  
-
-
-
-function App() {
-  return (
+   
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />}></Route>
@@ -35,7 +24,6 @@ function App() {
       <Route path="/aboutus" element={<AboutUsPage />}></Route>
     </Routes>
     </BrowserRouter>
->>>>>>> 677b50e61bed39f91f737aeb39c1d4c81803bf8c
   );
 }
 
