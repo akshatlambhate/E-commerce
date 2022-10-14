@@ -4,10 +4,10 @@ import { faTwitterSquare,faFacebookSquare , faInstagramSquare,faYoutubeSquare } 
 const SocialMediaIcons = () => {
     return (
         <>
-            <FontAwesomeIcon icon={faFacebookSquare} class="w-10 h-10 text-blue-900 hover:text-blue-700 " />
-            <FontAwesomeIcon icon={faTwitterSquare} class="w-10 h-10 text-blue-600 hover:text-blue-400 " />
-            <FontAwesomeIcon icon={faInstagramSquare} class="w-10 h-10 text-rose-600 hover:text-rose-400 " />
-            <FontAwesomeIcon icon={faYoutubeSquare} class="w-10 h-10 text-red-700 hover:text-red-500 " />
+            <FontAwesomeIcon icon={faFacebookSquare} class="w-8 h-8 text-blue-900 hover:text-blue-700 " />
+            <FontAwesomeIcon icon={faTwitterSquare} class="w-8 h-8 text-blue-600 hover:text-blue-400 " />
+            <FontAwesomeIcon icon={faInstagramSquare} class="w-8 h-8 text-rose-600 hover:text-rose-400 " />
+            <FontAwesomeIcon icon={faYoutubeSquare} class="w-8 h-8 text-red-700 hover:text-red-500 " />
         </>
     )
 }
