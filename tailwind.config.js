@@ -1,23 +1,36 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-  ],  
+  ],
   theme: {
-    extend: {
+    screens: {
+      'xs': '360px',
+      ...defaultTheme.screens,
+    },
+    extend:{
       colors: {
-        'shelduckBlue' : '#98DAD9',
-        'AntiFlashWhite' : '#EAEBED',
-        'AirBlue' : '#5B8291',
-        'Charcoal' : '#2E424D',
-        'white': '#ffffff',
-        'black' : '#000000',
+           'background':'#fbfffe',
+           'colortxt': '#1b1b1e',
+           'buttoncolor':'#003049',
+           'buttoncolorhover':'#fdf0d5',
+           'buttontext':'#fdf0d5',
+           'buttontexthover':"#003049",
+           'childdiv':'#a5a5a5',
+           'parentdiv':'#d1d5db',
+      },
+      width:{
+       'signup':'30rem'
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'] 
       },
       backgroundImage: {
-        'sc01': "url('/src/assests/sc01.jpg')",
-        'sc02': "url('/src/assests/sc02.jpg')",
+        'sc01': "url('/src/assets/sc01.jpg')",
+        'sc02': "url('/src/assets/sc02.jpg')",
       }
-      }
+      },
     },
   plugins: [],
 }
