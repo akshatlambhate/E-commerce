@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout01 from '../Layout/Layout01'
-import ContactUs from '../components/ContactUs'
+import {ContactUs} from '../components/Index'
 const ContactUsPage = () => {
   return (
     <div>

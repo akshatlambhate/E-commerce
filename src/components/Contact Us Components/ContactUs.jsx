@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope  } from '@fortawesome/free-solid-svg-icons'
 import Form from './Form'
-import SocialMediaIcons from './SocialMediaIcons'
+import SocialMediaIcons from '../SharedComponents/SocialMediaIcons'
 const ContactUs = () => {
     return (
         <div className='lg:p-4 bg-lightSkyBlue xs:p-2'>

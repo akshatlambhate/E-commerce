@@ -1,5 +1,5 @@
 import React from 'react'
-import { dataFoo } from '../utils/dataFooter'
+import { dataFoo } from '../../utils/dataFooter'
 const SubFooter = () => {
   return (
     <>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import signimg from '../assets/Signupimg.jpg'
-import { SignupData } from "../utils/SignupPageData";
+import signimg from '../../assets/Signupimg.jpg'
+import { SignupData } from "../../utils/SignupPageData";
 
 
 const Signup = (e) => {

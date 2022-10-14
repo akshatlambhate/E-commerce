@@ -1,13 +1,17 @@
 import React from 'react'
-import {AboutUs} from '../components/Index'
 import Layout01 from '../Layout/Layout01'
+import { AboutUs } from '../components/Index'
+import { SubAbout } from '../components/Index'
+
+
 
 const AboutPage = () => {
   return (
     <div>
         <Layout01 >
-            <AboutPage />
-        </Layout01>
+            <AboutUs/>
+            <SubAbout/>
+           </Layout01>
       
     </div>
   )

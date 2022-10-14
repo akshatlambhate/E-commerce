@@ -1,6 +1,6 @@
 import React from 'react'
-import {HP} from '../utils/DataAbout.jsx'
-import SubAbout from './SubAbout.jsx'
+import {HP} from '../../utils/DataAbout'
+import SubAbout from '../About Us Components/SubAbout'
 
 const AboutUs = () => {
   return (

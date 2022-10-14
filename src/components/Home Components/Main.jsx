@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from '../components/SharedComponents/Navbar'
-import ItemCards from './ItemCards'
+import ItemCards from '../Home Components/ItemCards'
 
 const Main = () => {
   return (

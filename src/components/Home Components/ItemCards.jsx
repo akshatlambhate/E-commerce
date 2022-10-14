@@ -1,10 +1,9 @@
 import React from 'react'
-import Navbar from '../components/SharedComponents/Navbar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { CardData } from '../utils/ItemCardsData';
-import { ItemRating } from '../utils/ItemCardsData';
-import {camera,phone,laptop,accessories,iphone,mic,television,headphones} from '../utils/ItemCardsData'
+import { CardData } from '../../utils/ItemCardsData';
+import { ItemRating } from '../../utils/ItemCardsData';
+import {camera,phone,laptop,accessories,iphone,mic,television,headphones} from '../../utils/ItemCardsData'
 
 import { Outlet, Link } from "react-router-dom";
 

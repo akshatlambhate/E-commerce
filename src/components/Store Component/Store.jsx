@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemCards from './ItemCards'
+import ItemCards from '../Home Components/ItemCards'
 
 const Store = () => {
   return (

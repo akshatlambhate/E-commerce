@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout01 from '../Layout/Layout01'
-import Checkout from '../components/Checkout'
+import {Checkout} from '../components/Index'
 const CheckoutPage = () => {
   return (
     <div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {dataAbout} from '../utils/DataAbout.jsx'
+import {dataAbout} from '../../utils/DataAbout'
 const SubAbout = () => {
   return (
       <div className='lg:grid lg:grid-cols-3  lg:mt-8 lg:mb-8 lg:gap-0

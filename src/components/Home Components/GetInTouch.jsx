@@ -1,5 +1,5 @@
 import React from 'react'
-import sideImg from '../assets/git-07.png'
+import sideImg from '../../assets/git-07.png'
 const GetInTouch = () => {
   return (
     <div  class="p-4 lg:flex lg:flex-row
