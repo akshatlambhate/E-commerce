@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout01 from '../Layout/Layout01'
-import Store from '../components/Store'
+import {Store} from '../components/Index'
 
 const StorePage = () => {
   return (

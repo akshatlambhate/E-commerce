@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGreaterThan} from '@fortawesome/free-solid-svg-icons';
 import {  faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import { faUserTie} from '@fortawesome/free-solid-svg-icons';

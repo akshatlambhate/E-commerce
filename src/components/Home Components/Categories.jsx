@@ -1,5 +1,5 @@
 import React from 'react'
-import { dataCat } from '../utils/CategoriesData.jsx'
+import { dataCat } from '../../utils/CategoriesData.jsx'
 const Categories = () => {
   return (
     <>

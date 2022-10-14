@@ -1,8 +1,8 @@
 import React from 'react'
-import product from '../assets/product.jpg'
+import product from '../../assets/product.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCcVisa } from '@fortawesome/free-brands-svg-icons'
-import Button from './Button'
+import Button from '../SharedComponents/Button'
 const ProductView = () => {
   return (
     <div className='bg-midSkyBlue p-8'>

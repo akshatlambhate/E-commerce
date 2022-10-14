@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import cartImg from '../assets/iphoneCartImg.png'
-import Button from './Button';
+import cartImg from '../../assets/iphoneCartImg.png'
+import Button from '../SharedComponents/Button';
 import { Outlet, Link } from "react-router-dom";
 const Cart = () => {
   const [count,setCount] = useState(1);

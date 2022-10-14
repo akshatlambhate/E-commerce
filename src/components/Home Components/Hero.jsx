@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/SharedComponents/Navbar";
-import background from "../assets/hero.jpg";
+import Navbar from "../SharedComponents/Navbar";
+import background from "../../assets/hero.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faArrowTurnDownRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,7 +16,7 @@ const Hero = () => {
         className="flex flex-col h-36"
       ></div>
       <div id="starting text">
-        <h1 className="text-white text-lg  ml-12 mb-12">
+        <h1 className="text-white text-lg  ml-40 mb-12">
           surrounded by technology
         </h1>
       </div>
