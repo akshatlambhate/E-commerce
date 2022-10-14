@@ -3,14 +3,14 @@ import sideImg from '../../assets/gitImage.png'
 const GetInTouch = () => {
   return (
     <div  class="p-4 lg:flex lg:flex-row
-    md:flex md:flex-row gap-12 bg-lightSkyBlue w-[100%]
-    xs:flex xs:flex-col xs:gap-4">
-    <div class="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-1/2 bg-midSkyBlue rounded m-8
+    md:flex md:flex-row lg:gap-18 bg-parentdiv w-[100%]
+    xs:flex xs:flex-col xs:gap-4 ">
+    <div class="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-[60%] md:w-[60%] bg-childdiv rounded m-8
      
-    xs:w-[80%] xs:p-4 xs:gap-6  bg-childdiv">
+    xs:w-[80%] xs:p-4 xs:gap-6 ">
       <div class="w-full items-center 
       xs:w-full ">
-        <h1 class="lg:text-5xl lg:bold font-mono text-darkBlue
+        <h1 class="lg:text-5xl lg:bold font-poppins text-colortxt
         lg:md-4
         md:bold 
         md:mb-2
@@ -46,13 +46,13 @@ const GetInTouch = () => {
       focus:text-colortxt focus:bg-white focus:border-parentdiv	focus:outline-none
       xs:w-full
       "/>
-      <button class="bg-blueShade	 hover:text-blueShade hover:bg-lightSkyBlue	 text-lightSkyBlue font-bold lg:py-2 lg:px-8 rounded-full
+      <button class="bg-buttoncolor	 hover:text-buttontexthover hover:bg-buttoncolorhover	 text-buttontext font-bold lg:py-2 lg:px-8 rounded
       xs:py-1 xs:px-4">Subscribe</button>
       </div>
     </div>
-    <div className='md:items-center md:p-6 lg:p-18 lg:w-[40%] xs:w-[100%] xs:p-8  '>
-      <img src={sideImg} alt="" class="lg:w-[50vh]  md:w-[95%] lg:h-[50vh] 
-      xs:h-[25vh] xs:px-8"/>
+    <div className='md:items-center md:p-6 lg:p-18 lg:w-[40%] xs:w-[100%] md:w-[60%] '>
+      <img src={sideImg} alt="" class="lg:w-[100%]    lg:h-[50vh] md:w-[100%] md:h-[20vh]
+       xs:px-16 "/>
     </div>
     </div>
   )
