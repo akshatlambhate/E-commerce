@@ -65,7 +65,7 @@ const Cart = () => {
               <button className='bg-darkBlue text-midSkyBlue text-base p-1 px-4 font-semibold hover:bg-midSkyBlue hover:text-darkBlue rounded'>Apply</button>
             </div>
             <button className='bg-darkBlue text-midSkyBlue text-base p-1 px-4 font-semibold hover:bg-midSkyBlue hover:text-darkBlue rounded my-4 lg:w-[40%]
-            xs:w-[80%] md:w-[40%]'>Proceed to checkout</button>
+            xs:w-[80%] md:w-[40%]'><Link to={"/checkoutpage"}>Proceed to checkout</Link></button>
           </div>
         </div>
       </div>
