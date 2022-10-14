@@ -12,11 +12,7 @@ const Signup = (e) => {
          password:'',
       }
   const [value ,setValue] = useState(initialState);
-  // let [fullname, setFullname] = useState("");
-  // let [email, setEmail] = useState("");
-  // let [contact, setContact] = useState("");
-  // let [address, setAddress] = useState("");
-  // let [password, setPassword] = useState("");
+
 
   const LoginSubmit = (e) => {
     e.preventDefault();
@@ -24,93 +20,46 @@ const Signup = (e) => {
     console.log(value)
 
   };
-  const handleSubmit=(e)=>{
+  const handleChange=(e)=>{
     setValue({...value,[e.target.name]:e.target.value})
     // console.log(value)
   }
-  return (
+  return (<>
     <div className="flex mx-auto mt-5 shadow-2xl shadow-slate-500  bg-gray-50 w-fit">
     <div  className="shadow-2xl flex flex-col align-middle w-fit px-10 py-5">
         <div className="py-3">
             <h1 className="font-bold text-3xl font-serif">Sign Up for Electric Nest</h1>
         </div>
-        <div>
-        {SignupData.map((data)=>(
-          <form className="flex flex-col ">
+        <form className="flex flex-col ">
+         {SignupData.map((data)=>(
+          <>
           <label className="text-lg font-mono text-slate-800 font-semibold "> {data.label} </label>
           <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
           type={data.type}
           name={data.name}
-          value={value.fullname}
+          value={value.name}
           autoComplete="null"
         placeholder={data.palceholder}
-          onChange={handleSubmit}
-            
-        ></input>
-          </form>
-        ))}
-        </div>
-      {/* <form className="flex flex-col ">
+          onChange={handleChange}   
+        />
+          </> 
+            ))}
         
-        <label className="text-lg font-mono text-slate-800 font-semibold "> FullName </label>
-        <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="fullname"
-          value={value.fullname}
-          autoComplete="null"
-          placeholder="Enter Full Name"
-          onChange={handleSubmit}
-            
-        ></input>
-         <label className="text-lg font-mono text-slate-800 font-semibold "> Email </label>
-        <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="email"
-          value={value.email}
-          autoComplete="null"
-          placeholder="Enter your Mail Address"
-          onChange={handleSubmit}
-            
-        ></input>
-         <label className="text-lg font-mono text-slate-800 font-semibold "> Contact Number </label>
-        <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="contact"
-          value={value.contact}
-          autoComplete="null"
-          placeholder="Mobile Number"
-          onChange={handleSubmit}
-            
-        ></input>
-         <label className="text-lg font-mono text-slate-800 font-semibold ">  Address Details </label>
-        <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="address"
-          value={value.address}
-          autoComplete="null"
-          placeholder="Add your Address Details"
-          onChange={handleSubmit}
-            
-        ></input>
-            <label className="text-lg font-mono text-slate-800 font-semibold">Enter Password</label>
-        <input
-        className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="password"
-          value={value.password}
-          autoComplete="null"
-          placeholder="Enter Password"
-          onChange={handleSubmit}
-        ></input>
-        <button onClick={LoginSubmit} className="bg-gray-900 py-3 w-fit px-10 mt-5 shadow-md shadow-slate-700 text-white hover:bg-buttonhover hover:text-black"> Submit</button>
+
+        <button onClick={LoginSubmit} className="bg-gray-900 py-3 w-fit px-10 mt-5 shadow-md shadow-slate-700 text-white hover:bg-buttonhover hover:text-black"> 
+        Submit
+        </button>
+        </form>
+        
         <h1
         className="mt-4 hover:text-red-600"><a href="">Already have an account? please Login</a></h1>
-      </form> */}
-    </div>
+        </div>
     <div className="">
       <img src={signimg} className="w-signup" />
     </div>
     </div>
+  </>
+
   );
 
 }
