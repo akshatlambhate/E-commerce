@@ -15,18 +15,11 @@ const Main = () => {
          <div id="blankgap" className='h-12'>
              
          </div>
-         <div className='flex gap-5 justify-center mx-10 mt-5'>
+         <div className='justify-center mt-5'>
             <ItemCards />
-            <ItemCards />
-            <ItemCards />
-            <ItemCards />
+
          </div>
-         <div className='flex gap-5 justify-center mx-10 mt-10'>
-            <ItemCards />
-            <ItemCards />
-            <ItemCards />
-            <ItemCards />
-         </div>
+        
          <div id="button " className='flex items-center justify-center'>
         <button className="bg-button px-14 py-3 mt-5 rounded-lg border-gray-800 border-2 hover:bg-buttonhover ">
                 View All Products
