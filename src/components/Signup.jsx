@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import signimg from '../assests/Signupimg.jpg'
+import signimg from '../assets/Signupimg.jpg'
 import { SignupData } from "../utils/SignupPageData";
 
 
@@ -12,21 +12,16 @@ const Signup = (e) => {
          password:'',
       }
   const [value ,setValue] = useState(initialState);
-  // let [fullname, setFullname] = useState("");
-  // let [email, setEmail] = useState("");
-  // let [contact, setContact] = useState("");
-  // let [address, setAddress] = useState("");
-  // let [password, setPassword] = useState("");
 
   const LoginSubmit = (e) => {
     e.preventDefault();
-    // console.log(fullname,email,contact,address,password);
+
     console.log(value)
 
   };
   const handleSubmit=(e)=>{
     setValue({...value,[e.target.name]:e.target.value})
-    // console.log(value)
+    
   }
   return (
     <div className="flex mx-auto mt-5 shadow-2xl shadow-slate-500  bg-gray-50 w-fit">
@@ -50,62 +45,7 @@ const Signup = (e) => {
           </form>
         ))}
         </div>
-      {/* <form className="flex flex-col ">
-        
-        <label className="text-lg font-mono text-slate-800 font-semibold "> FullName </label>
-        <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="fullname"
-          value={value.fullname}
-          autoComplete="null"
-          placeholder="Enter Full Name"
-          onChange={handleSubmit}
-            
-        ></input>
-         <label className="text-lg font-mono text-slate-800 font-semibold "> Email </label>
-        <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="email"
-          value={value.email}
-          autoComplete="null"
-          placeholder="Enter your Mail Address"
-          onChange={handleSubmit}
-            
-        ></input>
-         <label className="text-lg font-mono text-slate-800 font-semibold "> Contact Number </label>
-        <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="contact"
-          value={value.contact}
-          autoComplete="null"
-          placeholder="Mobile Number"
-          onChange={handleSubmit}
-            
-        ></input>
-         <label className="text-lg font-mono text-slate-800 font-semibold ">  Address Details </label>
-        <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="address"
-          value={value.address}
-          autoComplete="null"
-          placeholder="Add your Address Details"
-          onChange={handleSubmit}
-            
-        ></input>
-            <label className="text-lg font-mono text-slate-800 font-semibold">Enter Password</label>
-        <input
-        className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
-          type="text"
-          name="password"
-          value={value.password}
-          autoComplete="null"
-          placeholder="Enter Password"
-          onChange={handleSubmit}
-        ></input>
-        <button onClick={LoginSubmit} className="bg-gray-900 py-3 w-fit px-10 mt-5 shadow-md shadow-slate-700 text-white hover:bg-buttonhover hover:text-black"> Submit</button>
-        <h1
-        className="mt-4 hover:text-red-600"><a href="">Already have an account? please Login</a></h1>
-      </form> */}
+  
     </div>
     <div className="">
       <img src={signimg} className="w-signup" />
