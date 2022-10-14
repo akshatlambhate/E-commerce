@@ -10,41 +10,37 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 export const CardData =[
     {
-    pic:{phone},
-    item:'Mobile Phone ',
+    pic:phone,
+    name:'Mobile Phone',
     price: '$400',
 },
-    {pic:{laptop},
+    {pic:laptop,
     name:'laptops ',
     price: '$2000',
 },
-    {pic:{iphone},
+    {pic:iphone,
     name:'Iphone ',
     price: '$2000',
 },
-    {pic:{accessories},
+    {pic:accessories,
     name:'Accessories',
     price: '$170',
 },
-    {pic:{headphones},
+    {pic:headphones,
     name:'Headphones',
     price: '$90',
 },
-    {pic:{mic},
+    {pic:mic,
     name:'Compressor',
     price: '$1400',
 },
-    {pic:{television},
+    {pic:television,
     name:'Televison',
     price: '$1400',
 },
-    {pic:{camera},
+    {pic:camera,
     name:'Camera',
     price: '$5000',
 },
 ]
-export const ItemRating = [
-{
-    item:<FontAwesomeIcon icon={faStar} className="text-yellow-500 hover:text-black " />
-},
-]
+export {camera,phone,laptop,accessories,iphone,mic,television,headphones}
