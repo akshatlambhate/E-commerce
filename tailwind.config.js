@@ -40,6 +40,9 @@ module.exports = {
       width:{
        'signup':'30rem'
       },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'] 
+      },
       backgroundImage: {
         'sc01': "url('/src/assets/sc01.jpg')",
         'sc02': "url('/src/assets/sc02.jpg')",

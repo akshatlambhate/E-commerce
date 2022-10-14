@@ -4,12 +4,12 @@ const GetInTouch = () => {
   return (
     <div  class="p-4 lg:flex lg:flex-row
     md:flex md:flex-row gap-12 bg-lightSkyBlue w-[100%]
-    xs:flex xs:flex-col xs:gap-4">
-    <div class="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-1/2 bg-midSkyBlue rounded m-8
+    xs:flex xs:flex-col xs:gap-4 bg-navy-900 ">
+    <div class="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-1/2 rounded m-8
      
-    xs:w-[80%] xs:p-4 xs:gap-6 ">
+    xs:w-[80%] xs:p-4 xs:gap-6 bg-gray-300">
       <div class="w-full items-center 
-      xs:w-full ">
+      xs:w-full  ">
         <h1 class="lg:text-5xl lg:bold font-mono text-darkBlue
         lg:md-4
         md:bold 
@@ -46,7 +46,7 @@ const GetInTouch = () => {
       focus:text-darkBlue focus:bg-white focus:border-AirBlue	focus:outline-none
       xs:w-full
       "/>
-      <button class="bg-blueShade	 hover:text-blueShade hover:bg-lightSkyBlue	 text-lightSkyBlue font-bold lg:py-2 lg:px-8 rounded-full
+      <button class="bg-buttoncolor	 hover:text-buttontexthover hover:bg-buttoncolorhover	 text-buttontext font-bold lg:py-2 lg:px-8 rounded-full
       xs:py-1 xs:px-4">Subscribe</button>
       </div>
     </div>
