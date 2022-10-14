@@ -3,11 +3,11 @@ import sideImg from '../../assets/git-07.png'
 const GetInTouch = () => {
   return (
     <div  class="p-4 lg:flex lg:flex-row
-    md:flex md:flex-row gap-12 bg-lightSkyBlue w-[100%]
-    xs:flex xs:flex-col xs:gap-4 bg-navy-900 ">
+    md:flex md:flex-row gap-12  w-[100%]
+    xs:flex xs:flex-col xs:gap-4  bg-parentdiv">
     <div class="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-1/2 rounded m-8
      
-    xs:w-[80%] xs:p-4 xs:gap-6 bg-gray-300">
+    xs:w-[80%] xs:p-4 xs:gap-6  bg-childdiv">
       <div class="w-full items-center 
       xs:w-full  ">
         <h1 class="lg:text-5xl lg:bold font-mono text-darkBlue
