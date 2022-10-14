@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import cartImg from '../assets/iphoneCartImg.png'
 const Cart = () => {
+  const [count,setCount] = useState(1);
+
   return (
-    <div className='p-4'>
+    <div className='p-4 text-left'>
       <div>
-        <h1>Cart</h1>
-        <div className='w-[100%] flex flex-row' >
+        <h1 className='text-5xl font-mono font-semibold text-darkBlue mb-3'>Cart</h1>
+        <div className='w-[100%] flex flex-row gap-2 p-4' >
           <form action="" className='w-[60%] '>
             <table className='w-full border-2 border-gray-400'>
               <thead className='border-b-2 border-gray-400 mb-8'>
@@ -21,16 +23,20 @@ const Cart = () => {
               </thead>
               <tbody>
                 <tr className='items-center'>
-                  <td>x</td>
+                  <td className='p-4'>x</td>
                   <td><img src={cartImg} alt="" className='w-[40px] h-[40px]' /></td>
-                  <td>Product</td>
-                  <td>Price</td>
+                  <td>Phone</td>
+                  <td>$1234</td>
                   <td>
                     <div>
-                      <div className='flex gap-4 mb-2 justify-center items-start'>
-                        <button className='border-2 border-gray-400 p-2 px-4 rounded'>-</button>
-                        <span className='border-2 border-gray-400 p-2 px-4 rounded'>1</span>
-                        <button className='border-2 border-gray-400 p-2 px-4 rounded'>+</button>
+                      <div className='flex gap-4 mb-2 mt-2 '>
+                        <button className='border-2 border-gray-400 p-2 px-4 rounded'
+                        onClick={()=> setCount(count-1)}>-</button>
+                        <span className='border-2 border-gray-400 p-2 px-4 rounded'>{count}</span>
+                        <button className='border-2 border-gray-400 p-2 px-4 rounded'
+                         onClick={()=> setCount(count+1)}
+              
+                        >+</button>
                       </div>
                     </div>
                   </td>
@@ -39,22 +45,22 @@ const Cart = () => {
               </tbody>
             </table>
           </form>
-          <div className='w-[40%]'>
-            <div>Cart</div>
-            <div>
+          <div className='w-[40%] p-4 flex flex-col border-2 border-gray-400'>
+            <div className='text-2xl font-mono font-semibold text-darkBlue mb-3 border-b-2 border-gray-400'>Cart</div>
+            <div className='flex justify-between text-xl'>
               <h1>Subtotal</h1>
-              <h1>$345</h1>
+              <h1 className='font-bold'>$345</h1>
             </div>
-            <div>
+            <div className='flex justify-between text-xl'>
               <h1>Total</h1>
-              <h1>$345</h1>
+              <h1 className='font-bold'>$345</h1>
             </div>
             <p className='text-sm text-AirBlue my-1'>Have a coupon?</p>
             <div className='flex gap-6'>
               <input type="text" placeholder='Coupon code' className='text-sm p-1 mb-1 w-[60%] focus:outline-none focus:border-Charcoal border-2' />
               <button className='bg-darkBlue text-midSkyBlue text-base p-1 px-4 font-semibold hover:bg-midSkyBlue hover:text-darkBlue rounded'>Apply</button>
             </div>
-            <button>Proceed to checkout</button>
+            <button className='bg-darkBlue text-midSkyBlue text-base p-1 px-4 font-semibold hover:bg-midSkyBlue hover:text-darkBlue rounded my-4 w-[40%]'>Proceed to checkout</button>
           </div>
         </div>
       </div>
