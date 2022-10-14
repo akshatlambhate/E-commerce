@@ -9,10 +9,10 @@ import { Outlet, Link } from "react-router-dom";
 
 const ItemCards = () => {
   return (
-    <div className=' grid grid-cols-4 gap-7 '>
+    <div className=' grid grid-cols-4 gap-20'>
      {CardData.map((data)=>(
      <div id="items" className=' group flex flex-col gap-1 shadow-lg shadow-slate-600 items-center w-fit cursor-pointer basis-1/4'>
-       <div ><img src={data.pic} className="w-64"/>
+       <div ><img src={data.pic} className="w-72"/>
         <div id='quick-view' className='-translate-y-6 bg-stone-700 text-white opacity-0 group-hover:opacity-100'>
           <h1 className='hover:bg-black text-center'><Link to={"/productview"}>Quick View</Link></h1>
         </div>

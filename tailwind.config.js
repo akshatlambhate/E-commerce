@@ -17,6 +17,8 @@ module.exports = {
            'buttoncolorhover':'#fdf0d5',
            'buttontext':'#fdf0d5',
            'buttontexthover':"#003049",
+            'childiv':'#a5a5a5',
+            'parentdiv':'d1d5db',
        
       },
       width:{
@@ -26,6 +28,9 @@ module.exports = {
         'sc01': "url('/src/assets/sc01.jpg')",
         'sc02': "url('/src/assets/sc02.jpg')",
       }
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'] 
       },
     },
   plugins: [], 

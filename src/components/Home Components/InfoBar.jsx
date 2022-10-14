@@ -1,10 +1,10 @@
 import React from "react";
-import { infoBarData } from "../utils/InfoBarData";
+import { infoBarData } from "../../utils/InfoBarData";
 
 const InfoBar = () => {
   return (
     <div>
-      <div id="background" className="flex flex-wrap gap-36 justify-center py-16 text-center bg-buttoncolor mt-10 shadow-sm shadow-gray-500 ">
+      <div id="background" className="flex flex-wrap gap-36 justify-center py-16 text-center bg-buttoncolor mt-10 shadow-lg shadow-gray-500 ">
         {infoBarData.map((data)=>(
       <div id="free-shipping" className="flex flex-col items-center">
         <img src={data.icon} className="w-28 hover:w-24 cursor-pointer" />
