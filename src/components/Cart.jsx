@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import cartImg from '../assets/iphoneCartImg.png'
+import Button from './Button';
 import { Outlet, Link } from "react-router-dom";
 const Cart = () => {
   return (
@@ -42,13 +43,12 @@ const Cart = () => {
                 <h1>Total</h1>
                 <h1>$345</h1>
               </div>
-              <p className='text-sm text-AirBlue my-1'>Have a coupon?</p>
+              <p className='text-sm text-darkBlue my-1'>Have a coupon?</p>
             <div className='flex gap-6'>
-                <input type="text" placeholder='Coupon code' className='text-sm p-1 mb-1 w-[60%] focus:outline-none focus:border-Charcoal border-2'/>
-                <button className='bg-darkBlue text-midSkyBlue text-base p-1 px-4 font-semibold hover:bg-midSkyBlue hover:text-darkBlue rounded'>Apply</button>
+                <input type="text" placeholder='Coupon code' className='text-sm p-1 mb-1 w-[60%] focus:outline-none focus:border-midSkyBlue border-2'/>
+                <Button name={'Apply'} />
             </div>
-            <button className=' lg:my-2 bg-darkBlue lg:text-base text-midSkyBlue hover:bg-midSkyBlue hover:text-darkBlue border-none rounded p-2 w-[20%] font-bold hover:text-AirBlue hover:bg-AntiFlashWhite
-      xs:my-1 xs:text-sm'><Link to={"/checkoutpage"}>Proceed to checkout</Link></button>
+            <Link to={'/checkoutpage'}><Button name={'Proceed to checkout'} /></Link>
             </div>
         </div>
       </div>

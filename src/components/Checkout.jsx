@@ -1,64 +1,66 @@
 import React from 'react'
+import Button from './Button'
+import { Outlet, Link } from "react-router-dom";
 
 const Checkout = () => {
   return (
-    <div className='m-8 text-left'>
-      <h1 className='text-5xl font-mono font-semibold text-darkBlue mb-3'>Checkout</h1>
+    <div className='p-8 text-left bg-midSkyBlue'>
+      <h1 className='text-5xl font-mono font-semibold text-darkBlue mb-3 pl-8'>Checkout</h1>
       <div className='w-[100%] flex gap-4'>
-        <div className='w-[60%]  bg-lightSkyBlue p-8'>
+        <div className='w-[60%]   p-8'>
             <form action="" className='flex flex-col justify-start text-left'>
             <h1 className='text-2xl text-darkBlue py-2'>Customer information</h1>
             <label htmlFor="" className='text-base text-darkBlue'>Email address </label>
-            <input type="text" placeholder='Email address' className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2'/>
+            <input type="text" placeholder='Email address' className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2'/>
             <h1 className='text-2xl text-darkBlue py-2'>Billing details</h1>
             <div className='flex gap-4'>
                 <div className='flex flex-col w-1/2'>
                 <label htmlFor="" className='text-base text-darkBlue '>First name </label>
-                <input type="text"  className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2' />
+                <input type="text"  className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2' />
                 </div>
                 <div className='flex flex-col w-1/2'>
                 <label htmlFor="" className='text-base text-darkBlue'>Last name </label>
-                <input type="text" className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2' />
+                <input type="text" className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2' />
                 </div>
             </div>
             <label htmlFor="" className='text-base text-darkBlue'>Company name(optional) </label>
-            <input type="text"  className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2'/>
+            <input type="text"  className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2'/>
             <label htmlFor="" className='text-base text-darkBlue'>Country </label>
-            <input type="text" placeholder='India' className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2' />
+            <input type="text" placeholder='India' className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2' />
             <div className='flex gap-4'>
                 <div className='flex flex-col  w-1/2'>
                 <label htmlFor="" className='text-base text-darkBlue'>Street address </label>
-                <input type="text" placeholder='House number and street name' className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2'/>
+                <input type="text" placeholder='House number and street name' className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2'/>
                 </div>
                 <div className='flex flex-col w-1/2'>
                 <label htmlFor="" className='text-base text-darkBlue'>Apartment, suite, unit, etc. (optional) </label>
-                <input type="text" placeholder='Apartment, suite, unit, etc. (optional)' className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2'/>
+                <input type="text" placeholder='Apartment, suite, unit, etc. (optional)' className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2'/>
                 </div>
             </div>
             <div className='flex gap-4'>
                 <div className='flex flex-col w-1/3'>
                 <label htmlFor="" className='text-base text-darkBlue'>Town / City </label>
-                <input type="text" className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2' />
+                <input type="text" className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2' />
                 </div>
                 <div className='flex flex-col w-1/3'>
                 <label htmlFor="" className='text-base text-darkBlue'>State </label>
-                <input type="text" placeholder='Indore' className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2'/>
+                <input type="text" placeholder='Indore' className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2'/>
                 </div>
                 <div className='flex flex-col w-1/3'>
                 <label htmlFor="" className='text-base text-darkBlue'>Zip code </label>
-                <input type="text" className='text-sm p-1 mb-1 focus:outline-none focus:border-Charcoal border-2' />
+                <input type="text" className='text-sm p-1 mb-1 focus:outline-none focus:border-midSkyBlue border-2' />
                 </div>
             </div>
             <label htmlFor="" className='text-base text-darkBlue'>Phone </label>
-            <input type="number" className='text-sm p-1 mb-1 border-2 focus:outline-none focus:border-Charcoal' />
+            <input type="number" className='text-sm p-1 mb-1 border-2 focus:outline-none focus:border-midSkyBlue' />
 
             <h1 className='text-2xl text-AirBlue py-2'>Additional information</h1>
             <label htmlFor="" className='text-base text-darkBlue'>Order notes (optional) </label>
-            <textarea name="" id="" cols="30" rows="3" className='text-sm p-1 mb-1 border-2 text-AirBlue focus:outline-none focus:border-Charcoal'></textarea>
+            <textarea name="" id="" cols="30" rows="3" className='text-sm p-1 mb-1 border-2 text-AirBlue focus:outline-none focus:border-midSkyBlue'></textarea>
             <p className='text-sm text-AirBlue my-1'>Have a coupon?</p>
             <div className='flex gap-6'>
-                <input type="text" placeholder='Coupon code' className='text-sm p-1 mb-1 w-[60%] focus:outline-none focus:border-Charcoal border-2'/>
-                <button className='bg-darkBlue text-white text-base p-1 px-4 font-semibold hover:bg-slate-100 hover:text-AirBlue rounded'>Apply</button>
+                <input type="text" placeholder='Coupon code' className='text-sm p-1 mb-1 w-[60%] focus:outline-none focus:border-midSkyBlue border-2'/>
+                <Button name={'Apply'} />
             </div>
             <h1 className='text-2xl text-AirBlue py-2'>Payment</h1>
             <div className='p-4 border-t-2 border-darkBlue bg-slate-300'>
@@ -66,10 +68,10 @@ const Checkout = () => {
                 Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements.
                 </p>
             </div>
-            <button className='bg-darkBlue text-white text-base p-1 px-4 font-semibold hover:bg-slate-100 hover:text-AirBlue rounded my-4'>Place Order $151.2</button>
+            <Link to={'/checkoutpage'}><Button name={'Proceed to checkout'} /></Link>
             </form>            
         </div>
-        <div className='w-[40%]'>
+        <div className='w-[40%] p-8'>
             <h1 className='text-2xl font-mono font-semibold text-darkBlue mb-3'>Your order</h1>
             <div className='flex flex-col border-2 border-lightSkyBlue rounded'>
                 <div className='flex justify-between border-b-2 border-lightSkyBlue p-4 text-darkBlue'>
