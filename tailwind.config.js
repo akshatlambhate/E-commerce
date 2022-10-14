@@ -6,10 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'primary': "#3e424d",
-        'secondry': "#5b8291",
-        'light-primary': "#98dad9",
-        'background': "#eaebed"
+          'background':'#fbfffe',
+           'colortxt': '#1b1b1e',
+           'buttoncolor':'#003049',
+           'buttoncolorhover':'#fdf0d5',
+           'buttontext':'#fdf0d5',
+           'buttontexthover':"#003049",
       }
     },
   },
