@@ -1,5 +1,5 @@
 import React from 'react'
-import sideImg from '../assets/git-07.png'
+import sideImg from '../../assets/gitImage.png'
 const GetInTouch = () => {
   return (
     <div  class="p-4 lg:flex lg:flex-row
@@ -50,9 +50,9 @@ const GetInTouch = () => {
       xs:py-1 xs:px-4">Subscribe</button>
       </div>
     </div>
-    <div className='md:items-center md:p-6 lg:p-18 w-[40%] '>
-      <img src={sideImg} alt="" class="lg:w-[50vh]  md:w-[95%] h-[50vh] 
-      sm:p-4"/>
+    <div className='md:items-center md:p-6 lg:p-18 lg:w-[40%] xs:w-[100%] xs:p-8  '>
+      <img src={sideImg} alt="" class="lg:w-[50vh]  md:w-[95%] lg:h-[50vh] 
+      xs:h-[25vh] xs:px-8"/>
     </div>
     </div>
   )
