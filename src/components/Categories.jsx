@@ -3,15 +3,16 @@ import { dataCat } from '../utils/CategoriesData.jsx'
 const Categories = () => {
   return (
     <>
-    <div className='lg:flex lg:flex-row lg:p-8 lg:gap-8 border-2 border-midSkyBlue
-    xs:grid xs:grid-cols-3 xs:grid-auto xs:gap-4 xs:p-4'>
+    <div className='lg:flex lg:flex-row lg:p-12 lg:gap-12 border-2 border-midSkyBlue w-[100%]
+    xs:grid xs:grid-cols-3 xs:grid-auto xs:gap-4 xs:p-8
+    lg:h-[35vh]
+    xs:h-[50vh] '>
     {dataCat.map((data,i)=>(
-      <div className='flex flex-col justify-center items-center 
+      <div className='flex flex-col lg:w-[20%] items-center xs:w-[80%]
       '>
-        <img src={data.img} alt="images" className='w-60 p-3 shadow-lg h-33 rounded-lg border-2	border-midSkyBlue 
-        ' 
+        <img src={data.img} alt="images" className=' lg:max-w-[50%] lg:p-2 lg:hover:max-w-[60%] xs:max-w-[100%] xs:p-2 xs:hover:max-w-[60%] ' 
         />
-        <p className='text-Charcoal text-[18px] text-darkBlue font-bold hover:underline hover:cursor-pointer mt-2
+        <p className='text-Charcoal lg:text-xl text-darkBlue font-bold hover:underline hover:cursor-pointer mt-2
         xs:text-xs'>{data.tag}</p>
       </div>
     ))}
