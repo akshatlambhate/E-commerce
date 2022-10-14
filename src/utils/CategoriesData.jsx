@@ -1,9 +1,9 @@
-import laptop01 from '../assets/laptop-03.png'
-import ha from '../assets/HA01.png'
-import headphns from '../assets/headPhns01.png'
-import ipad from '../assets/ipad.png'
-import mobile from '../assets/mobile.png'
-import smartW from '../assets/smartW.png'
+import laptop01 from '../assets/laptop-screen.png'
+import ha from '../assets/washing-machine.png'
+import headphns from '../assets/headphones.png'
+import ipad from '../assets/elearning.png'
+import mobile from '../assets/iphone.png'
+import smartW from '../assets/smart-watch.png'
 export const dataCat = [
     {
         'img':laptop01,
