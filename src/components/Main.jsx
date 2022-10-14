@@ -15,7 +15,7 @@ const Main = () => {
          <div id="blankgap" className='h-12'>
              
          </div>
-         <div className='justify-center mt-5'>
+         <div className='flex gap-5 justify-center mt-5'>
             <ItemCards />
 
          </div>
