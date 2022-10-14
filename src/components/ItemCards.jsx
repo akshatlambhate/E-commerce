@@ -18,8 +18,15 @@ const ItemCards = () => {
         <div id="item-name" className='text-lg font-bold -mt-5 font-serif '>{data.name}</div>
         <div id="item-price" className='font-bold text-primary text-lg'>{data.price}</div>
         <div id="item-rating" className='mb-3'>
+<<<<<<< HEAD
           <FontAwesomeIcon icon={faStar} className="text-black hover:text-yellow-500 " />
         
+=======
+        <FontAwesomeIcon icon={faStar} className="text-black hover:text-yellow-500 " />
+        <FontAwesomeIcon icon={faStar} className="text-black hover:text-yellow-500 " />
+        <FontAwesomeIcon icon={faStar} className="text-black hover:text-yellow-500 " />
+        <FontAwesomeIcon icon={faStar} className="text-black hover:text-yellow-500 " />
+>>>>>>> ak-110
       </div>
       </div>
       ))}
