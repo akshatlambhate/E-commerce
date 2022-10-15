@@ -1,15 +1,25 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./components/Navbar.jsx";
-import ItemCards from "./components/ItemCards.jsx";
-import Hero from "./components/Hero";
-import Main from "./components/Main";
+import './index.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Home,SignupPage,StorePage,CartPage,CheckoutPage,ContactUsPage,ProductViewPage,Login,AboutPage} from "./pages/PageIndex"
+
 
 function App() {
   return (
-    <div className="App">
-      <Main />
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/store" element={<StorePage />}></Route>
+      <Route path="/login" element={<Login />}></Route>
+      <Route path="/signup" element={<SignupPage />}></Route>
+      <Route path="/contactus" element={<ContactUsPage />}></Route>
+      <Route path="/aboutus" element={<AboutPage />}></Route>
+      <Route path="/productview" element={<ProductViewPage />} ></Route>
+      <Route path="/cartpage" element={<CartPage />} ></Route>
+      <Route path="/checkoutpage" element={<CheckoutPage />} ></Route>
+
+    </Routes>
+    </BrowserRouter>
   );
 }
 
