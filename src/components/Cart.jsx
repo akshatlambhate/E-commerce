@@ -1,18 +1,20 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import cartImg from '../assets/iphoneCartImg.png'
+import Button from './SharedComponents/Button';
 const Cart = () => {
   const [count,setCount] = useState(1);
-
+  let price = 1234;
+  let total = count * price;
   return (
     <div className='p-4 text-left'>
       <div>
         <h1 className='text-5xl font-mono font-semibold text-darkBlue mb-3'>Cart</h1>
-        <div className='w-[100%] lg:flex lg:flex-row gap-2 p-4
-        xs:flex xs:flex-col' >
+        <div className='w-[100%] lg:flex lg:flex-row gap-2 p-8
+        xs:flex xs:flex-col bg-parentdiv border-t-2 border-colortxt' >
           <form action="" className='lg:w-[60%] xs:w-[100%] overflow-auto'>
-            <table className='lg:w-full border-2 border-gray-400 xs:w-[60%]  '>
-              <thead className='border-b-2 border-gray-400 mb-8'>
+            <table className='lg:w-full border-2 border-childdiv xs:w-[60%]  '>
+              <thead className='border-b-2 border-childdiv mb-8'>
                 <tr className=''>
                   <th className="product-remove p-4 ">&nbsp;</th>
                   <th className="product-thumbnail p-4">&nbsp;</th>
@@ -25,13 +27,14 @@ const Cart = () => {
               <tbody>
                 <tr className='items-center'>
                   <td className='p-4'>x</td>
-                  <td className='m-4'><img src={cartImg} alt="" className='w-[40px] h-[40px]' /></td>
+                  <td className='m-4'><img src={cartImg} alt="" className='w-[40px] h-[40px]'/></td>
                   <td className='p-4'>Phone</td>
                   <td className='p-4'>$1234</td>
                   <td className='p-4'>
                     <div>
                       <div className='flex gap-4 mb-2 mt-2 '>
                         <button className='border-2 border-gray-400 p-2 px-4 rounded'
+                        disabled={count<=1}
                         onClick={(e)=> {e.preventDefault(); setCount(count-1)}}>-</button>
                         <span className='border-2 border-gray-400 p-2 px-4 rounded'>{count}</span>
                         <button className='border-2 border-gray-400 p-2 px-4 rounded'
@@ -41,7 +44,7 @@ const Cart = () => {
                       </div>
                     </div>
                   </td>
-                  <td className='p-4'>Total</td>
+                  <td className='p-4'>${total}</td>
                 </tr>
               </tbody>
             </table>
@@ -51,19 +54,18 @@ const Cart = () => {
             <div className='text-2xl font-mono font-semibold text-darkBlue mb-3 border-b-2 border-gray-400'>Cart</div>
             <div className='flex justify-between text-xl'>
               <h1>Subtotal</h1>
-              <h1 className='font-bold'>$345</h1>
+              <h1 className='font-bold'>${total}</h1>
             </div>
             <div className='flex justify-between text-xl'>
               <h1>Total</h1>
-              <h1 className='font-bold'>$345</h1>
+              <h1 className='font-bold'>${total}</h1>
             </div>
             <p className='text-sm text-AirBlue my-1'>Have a coupon?</p>
             <div className='flex gap-6'>
-              <input type="text" placeholder='Coupon code' className='text-base p-1 mb-1 w-[60%] focus:outline-none focus:border-Charcoal border-2' />
-              <button className='bg-darkBlue text-midSkyBlue text-base p-1 px-4 font-semibold hover:bg-midSkyBlue hover:text-darkBlue rounded'>Apply</button>
+              <input type="text" placeholder='Coupon code' className='text-base h-10 p-1 my-2 w-[60%] focus:outline-none focus:border-Charcoal border-2' />
+              <Button name={'Apply'}  />
             </div>
-            <button className='bg-darkBlue text-midSkyBlue text-base p-1 px-4 font-semibold hover:bg-midSkyBlue hover:text-darkBlue rounded my-4 lg:w-[40%]
-            xs:w-[80%] md:w-[40%]'>Proceed to checkout</button>
+            <Button name={'Proceed to checkout'} />
           </div>
         </div>
       </div>
