@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faStar,faHeart} from "@fortawesome/free-solid-svg-icons";
 import { CardData } from '../../utils/ItemCardsData';
 import { ItemRating } from '../../utils/ItemCardsData';
 import {camera,phone,laptop,accessories,iphone,mic,television,headphones} from '../../utils/ItemCardsData'
@@ -9,9 +9,10 @@ import { Outlet, Link } from "react-router-dom";
 
 const ItemCards = () => {
   return (
-    <div className=' grid grid-cols-4 gap-20'>
+    <div className=' grid grid-cols-4 gap-10'>
      {CardData.map((data)=>(
      <div id="items" className=' group flex flex-col gap-1 shadow-lg shadow-slate-600 items-center w-fit cursor-pointer basis-1/4'>
+        <div className='absolute text-right w-52'><FontAwesomeIcon icon={faHeart}  className='text-2xl mt-4 text-buttontexthover hover:text-red-600' /></div>
        <div ><img src={data.pic} className="w-72"/>
         <div id='quick-view' className='-translate-y-6 bg-stone-700 text-white opacity-0 group-hover:opacity-100'>
           <h1 className='hover:bg-black text-center'><Link to={"/productview"}>Quick View</Link></h1>

@@ -18,7 +18,6 @@ import SubFooter from "./Footer Components/SubFooter";
 import ItemCards from "./Home Components/ItemCards";
 import ProductView from "./Home Components/ProductView";
 import Button from "./SharedComponents/Button";
-import Navbar01 from "./SharedComponents/Navbar01";
 import SocialMediaIcons from "./SharedComponents/SocialMediaIcons";
 import Store from "./Store Component/Store";
 import InfoBar from "./Home Components/InfoBar";
@@ -42,7 +41,6 @@ export {
   ItemCards,
   ProductView,
   Button,
-  Navbar01,
   SocialMediaIcons,
   Store,
   InfoBar
