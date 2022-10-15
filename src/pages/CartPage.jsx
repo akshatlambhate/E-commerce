@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout01 from '../Layout/Layout01'
+import Layout01 from '../components/Layout/Layout01'
 import {Cart} from '../components/Index'
 const CartPage = () => {
   return (

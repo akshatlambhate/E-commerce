@@ -1,5 +1,5 @@
 import React, { Children } from 'react'
-import Footer from '../components/SharedComponents/footer'
+import Footer from '../SharedComponents/footer'
 
 const LayoutHome = ({children}) => {
   return (

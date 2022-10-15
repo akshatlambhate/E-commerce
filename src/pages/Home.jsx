@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout01 from '../Layout/LayoutHome'
+import Layout01 from '../components/Layout/LayoutHome'
 import{Navbar,Hero,Categories,Main,GetInTouch,SaleSection,Footer,InfoBar} from '../components/Index'
-import LayoutHome from '../Layout/LayoutHome'
+import LayoutHome from '../components/Layout/LayoutHome'
 
 const Home = () => {
   return (

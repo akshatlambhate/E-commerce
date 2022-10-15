@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faGreaterThan} from '@fortawesome/free-solid-svg-icons';
+import { faSearch} from '@fortawesome/free-solid-svg-icons';
 import {  faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import { faUserTie} from '@fortawesome/free-solid-svg-icons';
 import { Outlet, Link } from "react-router-dom";
@@ -26,18 +27,19 @@ const Navbar = () => {
       <div id="navright" className="flex mx-9 my-4 mr-24">
       <div className="" id="right-menu">
         <ul className ="flex list-none mx-2">
-          <li className="px-2 mx-4 my-2"><Link to ="/aboutus" >About</Link></li>
-          <li className="px-2 mx-4 my-2"><Link to ="/contactus">Contact</Link></li>
+          <li className="px-2 mx-4 my-2 font-poppins text-buttoncolor font-bold hover:text-buttoncolorhover"  ><Link to ="/aboutus" >About</Link></li>
+          <li className="px-2 mx-4 my-2 font-poppins text-buttoncolor font-bold hover:text-buttoncolorhover"  ><Link to ="/contactus">Contact</Link></li>
         </ul>
       </div>
       <div className="px-2 py-2 my-0 bg-white text-black rounded ">
         <input type="text" placeholder="Search Products..." className="focus:outline-none "></input>
       </div>
-      <div className="px-3 mx-1 rounded bg-button hover:bg-buttonhover ">
-        <button className="text-center align-middle"> <FontAwesomeIcon icon={ faGreaterThan}/> </button>
+      <div className="px-3 mx-1 rounded bg-buttoncolor text-buttoncolorhover hover:bg-buttoncolorhover hover:text-buttoncolor">
+        <button className="text-center flex justify-center flex-col items-center h-10">
+           <FontAwesomeIcon icon={faSearch}  /> </button>
       </div>
-      <div className="px-2 text-2xl  mx-4 cursor-pointer hover:text-buttonhover "><Link to={"/cartpage"}><FontAwesomeIcon icon={faCartShopping}/></Link></div>
-      <div className="px-2 text-2xl  mx-4 cursor-pointer hover:text-buttonhover "><FontAwesomeIcon icon={faUserTie}/></div>
+      <div className="px-2 text-2xl text-buttoncolor  mx-4 cursor-pointer hover:text-buttoncolorhover "><Link to={"/cartpage"}><FontAwesomeIcon icon={faCartShopping}/></Link></div>
+      <div className="px-2 text-2xl  text-buttoncolor mx-4 cursor-pointer hover:text-buttoncolorhover"><FontAwesomeIcon icon={faUserTie}/></div>
       </div>
        
     </div>
