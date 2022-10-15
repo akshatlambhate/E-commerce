@@ -3,7 +3,7 @@ import { dataCat } from '../../utils/CategoriesData.jsx'
 const Categories = () => {
   return (
     <>
-    <div className='lg:flex lg:flex-row lg:p-12 lg:gap-12 border-b-2 border-parentdiv w-[100%]
+    <div className='lg:flex lg:flex-row lg:p-12 lg:gap-12  w-[100%]
     xs:grid xs:grid-cols-3 xs:grid-auto xs:gap-4 xs:p-8
     lg:h-[35vh]
     xs:h-[50vh] '>
