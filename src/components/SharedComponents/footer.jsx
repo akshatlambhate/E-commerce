@@ -4,7 +4,7 @@ import SubFooter from '../Footer Components/SubFooter'
 import SocialMediaIcons from '../SharedComponents/SocialMediaIcons'
 const Footer = () => {
   return (
-    <div class="	m-0 p-4	items-center w-[100%] bg-background">
+    <div class="	m-0 p-4	items-center w-[100%] bg-background border-t-2 border-stone-600">
       <div class="	lg:flex lg:gap-30	lg:flex-row m-8  
       xs:grid xs:grid-cols-2 xs:gap-4 xs:m-8
       sm:gap-6 

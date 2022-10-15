@@ -7,7 +7,7 @@ const GetInTouch = () => {
     xs:flex xs:flex-col xs:gap-4 ">
     <div class="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-[60%] md:w-[60%] bg-childdiv rounded m-8
      
-    xs:w-[80%] xs:p-4 xs:gap-6 ">
+    xs:w-[80%] xs:p-4 xs:gap-6 shadow-lg shadow-stone-600 ">
       <div class="w-full items-center 
       xs:w-full ">
         <h1 class="lg:text-5xl lg:bold font-poppins text-colortxt
