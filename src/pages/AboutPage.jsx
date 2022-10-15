@@ -10,8 +10,7 @@ const AboutPage = () => {
     <div>
         <Layout01 >
             <AboutUs/>
-            <SubAbout/>
-           </Layout01>
+        </Layout01>
       
     </div>
   )
