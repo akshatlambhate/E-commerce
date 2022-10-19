@@ -6,8 +6,6 @@ import mic from '../assets/mic.jpg'
 import television from '../assets/television.jpg'
 import accessories from '../assets/accessories.jpg'
 import headphones from '../assets/headphones.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from "@fortawesome/free-solid-svg-icons";
 export const CardData =[
     {
     pic:phone,

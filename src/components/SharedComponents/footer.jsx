@@ -8,7 +8,7 @@ const Footer = () => {
       <div class="	lg:flex lg:gap-30	lg:flex-row m-8  
       xs:grid xs:grid-cols-2 xs:gap-4 xs:m-8
       sm:gap-6 
-      md:gap-12 ">
+      md:gap-12 md:mx-8">
         <div class=" flex gap-8	flex-col w-[60%] 
         xs:gap-2 xs:p-2 
         lg:w-[20%] lg:mr-16">

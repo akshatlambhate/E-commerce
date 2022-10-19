@@ -5,18 +5,20 @@ import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
 const Main = () => {
   return (
-    <div className='mb-5 mt-6 flex flex-col bg-background '>
-       <div className='mx-20'><div id='secondary-text' className='text-xl my-2 font-poppins  font-semibold text-buttoncolor '>
+    <div className='lg:mb-5 lg:mt-6 flex flex-col bg-background 
+    xs:mb-3 xs:mt-3'>
+       <div className='lg:mx-12 md:mx-20 xs:mx-5 '><div id='secondary-text' className='text-xl my-2 font-poppins  font-semibold text-buttoncolor '>
          <h1>Aquire the Advance LifStyle</h1>
        </div>
-       <div id='Primary-text' className='text-5xl font-bold font-poppins text-buttoncolor '>
+       <div id='Primary-text' className='lg:text-5xl font-bold font-poppins text-buttoncolor 
+       xs:text-4xl'>
          <h1>Grab The Deal</h1>
          </div>
          </div>
          <div id="blankgap" className='h-12'>
              
          </div>
-         <div className='flex justify-center mt-5'>
+         <div className='flex justify-center mt-5 '>
             <ItemCards />
 
          </div>
