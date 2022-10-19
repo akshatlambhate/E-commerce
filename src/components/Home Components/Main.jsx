@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div className='lg:mb-5 lg:mt-6 flex flex-col bg-background 
     xs:mb-3 xs:mt-3'>
-       <div className='lg:mx-20 xs:mx-10'><div id='secondary-text' className='text-xl my-2 font-poppins  font-semibold text-buttoncolor '>
+       <div className='lg:mx-12 md:mx-20 xs:mx-5 '><div id='secondary-text' className='text-xl my-2 font-poppins  font-semibold text-buttoncolor '>
          <h1>Aquire the Advance LifStyle</h1>
        </div>
        <div id='Primary-text' className='lg:text-5xl font-bold font-poppins text-buttoncolor 
@@ -18,7 +18,7 @@ const Main = () => {
          <div id="blankgap" className='h-12'>
              
          </div>
-         <div className='flex justify-center mt-5'>
+         <div className='flex justify-center mt-5 '>
             <ItemCards />
 
          </div>

@@ -13,7 +13,7 @@ const ItemCards = () => {
     xs:grid xs:grid-cols-2 p-4'>
      {CardData.map((data)=>(
      <div id="items" className=' group flex flex-col gap-1 shadow-lg shadow-slate-600 items-center w-fit cursor-pointer basis-1/4'>
-        <div className='absolute text-right w-52 pr-8'><FontAwesomeIcon icon={faHeart}  className='text-2xl mt-4 text-buttontexthover hover:text-red-600' /></div>
+        <div className='absolute text-right md:w-60 md:pr-2 xs:w-48 xs:pr-6'><FontAwesomeIcon icon={faHeart}  className='text-2xl mt-4 text-buttontexthover hover:text-red-600' /></div>
        <div ><img src={data.pic} className="w-72"/>
         <div id='quick-view' className='-translate-y-6 bg-stone-700 text-white opacity-0 group-hover:opacity-100'>
           <h1 className='hover:bg-black text-center'><Link to={"/productview"}>Quick View</Link></h1>

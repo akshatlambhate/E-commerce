@@ -8,9 +8,10 @@ const Hero = () => {
   return (
     <div
       style={{ backgroundImage: `url(${background})` }}
-      className="bg-cover lg:h-screen xs:h-250vh p-4"
+      className="bg-cover lg:h-screen md:h-[50vh]"
     >
       <Navbar />
+      <div className="md:py-24 md:px-16 lg:py-24 lg:px-0 xs:py-12">
       <div
         id="hero-text "
         className="flex flex-col py-8"
@@ -32,6 +33,7 @@ const Hero = () => {
         xs:ml-5 xs:mt-3">
           SHOP NEW TECH <FontAwesomeIcon icon={faArrowRight} />
         </button>
+      </div>
       </div>
       </div>
     </div>

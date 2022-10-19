@@ -5,7 +5,8 @@ const InfoBar = () => {
   return (
     <div>
       <div id="background" className="lg:flex lg:flex-wrap lg:gap-36 lg:justify-center lg:py-16 text-center bg-buttoncolor lg:mt-10 shadow-lg shadow-gray-500 
-      xs:grid xs:grid-cols-2 xs:p-4">
+      xs:grid xs:grid-cols-2 xs:p-4
+      md:grid md:grid-cols-4">
         {infoBarData.map((data)=>(
       <div id="free-shipping" className="flex flex-col items-center">
         <img src={data.icon} className="lg:w-28 lg:hover:w-24 cursor-pointer
