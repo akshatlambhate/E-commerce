@@ -4,12 +4,15 @@ import { infoBarData } from "../../utils/InfoBarData";
 const InfoBar = () => {
   return (
     <div>
-      <div id="background" className="flex flex-wrap gap-36 justify-center py-16 text-center bg-buttoncolor mt-10 shadow-lg shadow-gray-500 ">
+      <div id="background" className="lg:flex lg:flex-wrap lg:gap-36 lg:justify-center lg:py-16 text-center bg-buttoncolor lg:mt-10 shadow-lg shadow-gray-500 
+      xs:grid xs:grid-cols-2 xs:p-4">
         {infoBarData.map((data)=>(
       <div id="free-shipping" className="flex flex-col items-center">
-        <img src={data.icon} className="w-28 hover:w-24 cursor-pointer" />
+        <img src={data.icon} className="lg:w-28 lg:hover:w-24 cursor-pointer
+        xs:w-14 xs:hover:w-12" />
 
-          <h1 className="text-2xl font-mono font-semibold text-buttoncolorhover cursor-pointer mt-5 text-center hover:text-stone-400">{data.name}</h1>
+          <h1 className="lg:text-2xl font-mono font-semibold text-buttoncolorhover cursor-pointer mt-5 text-center hover:text-stone-400
+          xs:text-base">{data.name}</h1>
         </div>
         ))}
       </div>

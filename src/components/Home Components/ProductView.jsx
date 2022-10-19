@@ -39,7 +39,7 @@ const ProductView = () => {
               <span className='border-2 border-lightSkyBlue p-2 px-4 rounded'>1</span>
               <button className='border-2 border-lightSkyBlue p-2 px-4 rounded'>+</button>
             </div>
-            <div className=''><Button name={'Add to cart'} /></div>
+            <div className=''><Button props={'Add to cart'} /></div>
         </div>
         </div>
       </div>

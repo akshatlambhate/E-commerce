@@ -17,6 +17,7 @@ function App() {
       <Route path="/productview" element={<ProductViewPage />} ></Route>
       <Route path="/cartpage" element={<CartPage />} ></Route>
       <Route path="/checkoutpage" element={<CheckoutPage />} ></Route>
+      <Route path="/signuppage" element={<SignupPage />} ></Route>
 
     </Routes>
     </BrowserRouter>
