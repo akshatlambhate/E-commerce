@@ -7,7 +7,7 @@ const Signup = (e) => {
       const initialState = {
          fullname:'',
          email:'',
-         contact:'',
+         contact:'', 
          address:'',
          password:'',
       }
@@ -25,7 +25,8 @@ const Signup = (e) => {
     // console.log(value)
   }
   return (<>
-    <div className="flex mx-auto mt-5 shadow-2xl shadow-slate-500  bg-gray-50 w-fit ">
+    <div className="lg:flex lg:flex-row mx-auto mt-5 shadow-2xl shadow-slate-500  bg-gray-50 w-fit 
+    xs:flex xs:flex-col">
     <div  className="shadow-2xl flex flex-col align-middle w-fit px-10 py-5">
         <div className="py-3">
             <h1 className="font-bold text-3xl font-serif">Sign Up for Electric Nest</h1>

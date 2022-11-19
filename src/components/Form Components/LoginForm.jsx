@@ -1,24 +1,35 @@
 import React, { useState } from "react";
 import loginimg from "../../assets/LoginForm.jpg";
+import { useEffect } from "react";
+import { axiosInstance } from "../../utils/apiFetch";
 
 const LoginForm = () => {
-  let [username, setUsername] = useState("");
+  let [userEmail, setUserEmail] = useState("");
   let [password, setPassword] = useState("");
-
-  const LoginSubmit = (e) => {
+  
+  const LoginSubmit = async (e) => {
     e.preventDefault();
-    if (username==='akshat'&& password ==='aakanksha') {
-        return (<div>
-               Login SuccessFull
-        </div>
-      )
-        
-    }
-    else{
-       return (<div>
-          Login Failed
-       </div>)
-    }
+    let item = {userEmail,password}
+    // const userdata = await fetch("https://dp-backend-e-comm.herokuapp.com/api/auth/login", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify({
+    //     userEmail: item.userEmail, password: item.password
+    //   })
+    // });
+
+    // const res = await userdata.json();
+    // console.log(res);
+    // let token = res.data.accessToken;
+    // localStorage.setItem("token", JSON.stringify(token));
+
+    const response = await axiosInstance.post('/auth/login', item);
+    console.log(response);
+    let token = response.data.data.accessToken;
+    localStorage.setItem("token", JSON.stringify(token));
+
   };
  
   return (
@@ -28,14 +39,14 @@ const LoginForm = () => {
             <h1 className="font-bold text-3xl font-serif">Login to Electric Nest</h1>
         </div>
       <form className="flex flex-col ">
-        <label className="text-lg font-mono text-slate-800 font-semibold ">Enter Username </label>
+        <label className="text-lg font-mono text-slate-800 font-semibold ">Enter UserEmail </label>
         <input className="py-4 px-4 shadow-lg border-t-2 border-gray-300 my-2 rounded-sm focus:outline-none"
           type="text"
-          value={username}
+          value={userEmail}
           autoComplete="null"
           placeholder="Enter Username"
           onChange={(e) => {
-              setUsername(e.target.value);   
+              setUserEmail(e.target.value);   
             }}
             
         ></input>

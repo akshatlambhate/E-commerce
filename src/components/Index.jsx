@@ -21,6 +21,8 @@ import Button from "./SharedComponents/Button";
 import SocialMediaIcons from "./SharedComponents/SocialMediaIcons";
 import Store from "./Store Component/Store";
 import InfoBar from "./Home Components/InfoBar";
+import CartContext from "../components/Cart Component/CartContext";
+import CartReducer from "../components/Cart Component/CartReducer";
 export {
   Navbar,
   Hero,
@@ -43,5 +45,6 @@ export {
   Button,
   SocialMediaIcons,
   Store,
-  InfoBar
+  InfoBar,
+  CartReducer
 };

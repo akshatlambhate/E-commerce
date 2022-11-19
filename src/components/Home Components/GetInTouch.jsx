@@ -2,15 +2,15 @@ import React from 'react'
 import sideImg from '../../assets/gitImage.png'
 const GetInTouch = () => {
   return (
-    <div  class="p-4 lg:flex lg:flex-row
+    <div  className="p-4 lg:flex lg:flex-row
     md:flex md:flex-row lg:gap-18 bg-parentdiv w-[100%]
     xs:flex xs:flex-col xs:gap-4 ">
-    <div class="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-[60%] md:w-[60%] bg-childdiv rounded m-8
+    <div className="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-[60%] md:w-[60%] bg-childdiv rounded m-8
      
     xs:w-[80%] xs:p-4 xs:gap-6 shadow-lg shadow-stone-600 ">
-      <div class="w-full items-center 
+      <div className="w-full items-center 
       xs:w-full ">
-        <h1 class="lg:text-5xl lg:bold font-poppins text-colortxt
+        <h1 className="lg:text-5xl lg:bold font-poppins text-colortxt
         lg:md-4
         md:bold 
         md:mb-2
@@ -24,11 +24,11 @@ const GetInTouch = () => {
         So,Subscribe to ElectonicsNest & get notified on the latest devices that impact your lifestyle.
         </p>
       </div>
-      <div class="lg:flex lg:flex-row lg:gap-12 w-full items-center
+      <div className="lg:flex lg:flex-row lg:gap-12 w-full items-center
       xs:flex xs:flex-col xs:gap-4">
       <input type="text" 
       placeholder='Enter your mail' 
-      class="w-2/3
+      className="w-2/3
       lg:px-3
       lg:py-1.5
       lg:text-base
@@ -46,7 +46,7 @@ const GetInTouch = () => {
       focus:text-colortxt focus:bg-white focus:border-parentdiv	focus:outline-none
       xs:w-full
       "/>
-      <button class="bg-buttoncolor	 hover:text-buttontexthover hover:bg-buttoncolorhover	 text-buttontext font-bold lg:py-2 lg:px-8 rounded
+      <button className="bg-buttoncolor	 hover:text-buttontexthover hover:bg-buttoncolorhover	 text-buttontext font-bold lg:py-2 lg:px-8 rounded
       xs:py-1 xs:px-4">Subscribe</button>
       </div>
     </div>

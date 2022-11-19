@@ -2,6 +2,7 @@ import "./App.css";
 import './index.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {Home,SignupPage,StorePage,CartPage,CheckoutPage,ContactUsPage,ProductViewPage,Login,AboutPage} from "./pages/PageIndex"
+import LoginPage from "./pages/LoginPage";
 
 
 function App() {
@@ -14,10 +15,12 @@ function App() {
       <Route path="/signup" element={<SignupPage />}></Route>
       <Route path="/contactus" element={<ContactUsPage />}></Route>
       <Route path="/aboutus" element={<AboutPage />}></Route>
-      <Route path="/productview" element={<ProductViewPage />} ></Route>
+      <Route path="/productview/:productId" element={<ProductViewPage />} ></Route>
       <Route path="/cartpage" element={<CartPage />} ></Route>
       <Route path="/checkoutpage" element={<CheckoutPage />} ></Route>
       <Route path="/signuppage" element={<SignupPage />} ></Route>
+      <Route path="/loginpage" element={<LoginPage />} ></Route>
+
 
     </Routes>
     </BrowserRouter>
