@@ -3,20 +3,20 @@ import sideImg from '../../assets/gitImage.png'
 const GetInTouch = () => {
   return (
     <div  className="p-4 lg:flex lg:flex-row
-    md:flex md:flex-row lg:gap-18 bg-parentdiv w-[100%]
+    md:flex md:flex-row lg:gap-18 bg-cream w-[100%]
     xs:flex xs:flex-col xs:gap-4 ">
-    <div className="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-[60%] md:w-[60%] bg-childdiv rounded m-8
+    <div className="	lg:flex lg:flex-col lg:gap-8 items-center	lg:p-16 lg:w-[60%] md:w-[60%] bg-buttoncolor  rounded m-8
      
     xs:w-[80%] xs:p-4 xs:gap-6 shadow-lg shadow-stone-600 ">
       <div className="w-full items-center 
       xs:w-full ">
-        <h1 className="lg:text-5xl lg:bold font-poppins text-colortxt
+        <h1 className="lg:text-5xl lg:bold font-poppins text-cream
         lg:md-4
         md:bold 
         md:mb-2
         xs:mb-2
         xs:text-base	xs:bold">Get In Touch!</h1>
-        <p class="text-colortxt
+        <p class="text-cream
         lg:text-base lg:md-4
         md:mb-2    
         xs:mb-2
@@ -43,10 +43,10 @@ const GetInTouch = () => {
       border-b-2 
       border-parentdiv
       rounded 
-      focus:text-colortxt focus:bg-white focus:border-parentdiv	focus:outline-none
+      focus:text-cream focus:bg-white focus:border-parentdiv	focus:outline-none
       xs:w-full
       "/>
-      <button className="bg-buttoncolor	 hover:text-buttontexthover hover:bg-buttoncolorhover	 text-buttontext font-bold lg:py-2 lg:px-8 rounded
+      <button className="bg-cream	 hover:text-cream hover:bg-buttoncolorhover	 text-buttoncolor font-bold lg:py-2 lg:px-8 rounded
       xs:py-1 xs:px-4">Subscribe</button>
       </div>
     </div>

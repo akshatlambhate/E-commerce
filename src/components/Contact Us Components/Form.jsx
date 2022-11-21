@@ -3,7 +3,7 @@ import Button from '../SharedComponents/Button'
 
 const Form = () => {
     return (
-        <div className='p-4 bg-childdiv  shadow-lg shadow-stone-500'>
+        <div className='p-4 bg-buttontext text-buttoncolor  shadow-lg shadow-stone-500'>
             <form action="" className='flex flex-col text-left'>
                 <label htmlFor="" className='text-sm text-AirBlue font-semibold	'>Name</label>
                 <input type="text" className='w-[100%] border-b-2 border-midSkyBlue focus:outline-none focus:border-AirBlue text-sm p-1 my-2 ' />

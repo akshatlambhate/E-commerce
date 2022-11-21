@@ -1,9 +1,9 @@
-import laptop01 from '../assets/laptop-screen.png'
-import ha from '../assets/washing-machine.png'
-import headphns from '../assets/headphones.png'
-import ipad from '../assets/elearning.png'
-import mobile from '../assets/iphone.png'
-import smartW from '../assets/smart-watch.png'
+import laptop01 from '../assets/laptop-screen.json'
+import ha from '../assets/washing-machine.json'
+import headphns from '../assets/headphones01.json'
+import ipad from '../assets/elearning.json'
+import mobile from '../assets/mobile.json'
+import smartW from '../assets/smart-watch.json'
 export const dataCat = [
     {
         'img':laptop01,
@@ -11,15 +11,11 @@ export const dataCat = [
     },
     {
         'img':ha,
-        'tag':'HAppliances',
+        'tag':'Appliances',
     },
     {
         'img':headphns,
         'tag':'Headphones',
-    },
-    {
-        'img':ipad,
-        'tag':'Tablets',
     },
     {
         'img':mobile,

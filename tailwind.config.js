@@ -14,11 +14,12 @@ module.exports = {
            'background':'#fbfffe',
            'colortxt': '#1b1b1e',
            'buttoncolor':'#003049',
-           'buttoncolorhover':'#fdf0d5',
+           'buttoncolorhover':'#0e9594',
            'buttontext':'#fdf0d5',
            'buttontexthover':"#003049",
            'childdiv':'#a5a5a5',
            'parentdiv':'#d1d5db',
+           'cream': '#f5dfbb'
       },
       width:{
        'signup':'30rem'

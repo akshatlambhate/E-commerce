@@ -7,8 +7,8 @@ const CartItem = () => {
     let total = count * price;
   return (
     <div>
-              <table className='lg:w-full border-2 border-colortxt xs:w-[60%]  '>
-                  <thead className='border-b-2 border-colortxt mb-8'>
+              <table className='lg:w-full border-2 border-background xs:w-[60%]  '>
+                  <thead className='border-b-2 border-background mb-8'>
                       <tr className=''>
                           <th className="product-remove p-4 ">&nbsp;</th>
                           <th className="product-thumbnail p-4">&nbsp;</th>
@@ -27,11 +27,11 @@ const CartItem = () => {
                           <td className='p-4'>
                               <div>
                                   <div className='flex gap-4 mb-2 mt-2 '>
-                                      <button className='border-2 border-gray-400 p-2 px-4 rounded'
+                                      <button className='border-2  bg-cream text-buttoncolor text-xl font-extrabold hover:text-cream hover:bg-buttoncolorhover border-gray-400 p-2 px-4 rounded'
                                           disabled={count <= 1}
                                           onClick={(e) => { e.preventDefault(); setCount(count - 1) }}>-</button>
-                                      <span className='border-2 border-gray-400 p-2 px-4 rounded'>{count}</span>
-                                      <button className='border-2 border-gray-400 p-2 px-4 rounded'
+                                      <span className='border-2  bg-buttoncolorhover text-cream text-xl font-extrabold border-gray-400 p-2 px-4 rounded'>{count}</span>
+                                      <button className='border-2 bg-cream text-buttoncolor text-xl font-extrabold hover:text-cream hover:bg-buttoncolorhover border-gray-400 p-2 px-4 rounded'
                                           onClick={(e) => { e.preventDefault(); setCount(count + 1) }}
 
                                       >+</button>
